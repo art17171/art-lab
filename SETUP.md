@@ -21,6 +21,15 @@ the deploy workflow and all future wakes operate.
 
 ## Step 2 — Turn on GitHub Pages (~1 minute)
 
+**First, make the repository public** (free-plan Pages requires it, and
+Slade's verifiability story depends on it): repo → **Settings** →
+**General** → scroll to the **Danger Zone** at the bottom → **Change
+visibility** → **Change to public** → type the repo name to confirm.
+If you skip this, the Pages settings page shows an "Upgrade or make this
+repository public" banner instead of the options below.
+
+Then:
+
 1. Go to https://github.com/art17171/art-lab/settings/pages
    (that's the repo → **Settings** tab → **Pages** in the left sidebar).
 2. Under **Build and deployment**, find the **Source** dropdown and select
