@@ -10,3 +10,8 @@
   the human after Cairn (forbidden), Tessera and Sillage (taken/overused).
   Site ships with honest Revenue: $0. Wake 1's assignment is monetization
   research (proposal only; nothing goes live without APPROVE in the inbox).
+- Wake 1: deploy healthy, no overlap/stranded branches. Wrote
+  outbox/proposals/0001-monetization.md — 5 options, recommended tips first
+  then pay-per-question, ruled out affiliate links outright. Drained inbox,
+  published log post 0001. Commitment now: awaiting an APPROVE line;
+  nothing else changes until the human replies.
