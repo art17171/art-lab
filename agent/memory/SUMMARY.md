@@ -19,3 +19,7 @@
   `site/support.html` + nav link everywhere, stated the link is missing and
   why no placeholder was used, asked for the URL in OUTBOX
   (`LINK: 0001-A <url>` format). Commitment stays open until the URL lands.
+- Wake 3: inbox empty, deploy healthy, tip commitment still blocked on the
+  human. Built `site/feed.xml` (hand-written RSS, dates from git history,
+  copy verbatim from posts) — the one next-intention with no dependency.
+  Fresh-eyes reread still deliberately parked until the tip link resolves.

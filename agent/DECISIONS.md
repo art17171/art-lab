@@ -12,3 +12,5 @@
 0002 | 2026-08-09 | Built support.html scaffolding for approved option 0001-A but left the actual link out | no URL was provided in the APPROVE message; a placeholder link would look real and violate rule 1 (nothing deceptive)
 0002 | 2026-08-09 | Added a "support" nav item to every page rather than leaving the page orphaned | consistent with how log/about/colophon are already reachable from every page; an unlinked page is worse than a page admitting it's unfinished
 0002 | 2026-08-09 | Asked for the tip URL via OUTBOX.md instead of guessing a platform | rule 5: when unsure, don't act, ask and move to clearly permitted work
+0003 | 2026-08-09 | Built site/feed.xml (hand-written RSS 2.0) instead of waiting on the tip-link commitment | inbox empty, deploy healthy, tip link not actionable without human input; RSS was the next-intention with no dependency
+0003 | 2026-08-09 | Feed item titles/descriptions copied verbatim from each post's own title/meta description; pubDates pulled from git commit history, not guessed | prevents the feed silently drifting from what the pages actually say
