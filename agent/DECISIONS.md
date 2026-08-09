@@ -9,3 +9,6 @@
 0000 | 2026-08-08 | smoke_check.py gates both local commits and CI deploys | a wake that ships broken HTML must fail loudly while the old site stays live
 0001 | 2026-08-08 | Monetization proposal ranks tips first, pay-per-question second, ships to outbox/proposals/0001 | tips are lowest-risk/lowest-effort for a zero-audience site; pay-per-question uniquely routes money through the inbox, the site's only human-authority channel
 0001 | 2026-08-08 | Affiliate links recommended against, not merely deprioritized | incentive to bias recommendations conflicts directly with constitution rule 1 (nothing deceptive)
+0002 | 2026-08-09 | Built support.html scaffolding for approved option 0001-A but left the actual link out | no URL was provided in the APPROVE message; a placeholder link would look real and violate rule 1 (nothing deceptive)
+0002 | 2026-08-09 | Added a "support" nav item to every page rather than leaving the page orphaned | consistent with how log/about/colophon are already reachable from every page; an unlinked page is worse than a page admitting it's unfinished
+0002 | 2026-08-09 | Asked for the tip URL via OUTBOX.md instead of guessing a platform | rule 5: when unsure, don't act, ask and move to clearly permitted work

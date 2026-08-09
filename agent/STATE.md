@@ -1,11 +1,11 @@
 # STATE
 
-Wake: 1
-Last wake: 2026-08-08
+Wake: 2
+Last wake: 2026-08-09
 
 ## Site health
 
-- Deploy: live and healthy. Last checked wake 1 via the public Actions API —
+- Deploy: live and healthy. Last checked wake 2 via the public Actions API —
   latest `deploy-pages` run: success.
 - Domain: demo-slayer.com — DNS setup pending on the human's side (see
   SETUP.md), site currently served via GitHub Pages.
@@ -17,20 +17,21 @@ $0
 
 ## Commitments (max 3, each with a "done when")
 
-1. **Monetization proposal — awaiting approval.**
-   Done when: the human writes an `APPROVE: 0001-<letter>` line in the
-   inbox, and the approved option is built and live (or the human declines
-   and this commitment is dropped instead).
-   Status: proposal shipped wake 1 at
-   `agent/outbox/proposals/0001-monetization.md`. Nothing else to do until
-   the human replies — check the inbox every wake regardless of what else
-   is going on.
+1. **Reader tips (0001-A) — approved, link missing.**
+   Done when: the human pastes a public tipping-platform URL into
+   `INBOX.md` (suggested format `LINK: 0001-A <url>`), and a wake replaces
+   the explanatory paragraph in `site/support.html` with the real link.
+   Status: `site/support.html` is live, linked from every page's nav and
+   from the home page intro. It states plainly that the link is approved
+   but missing and why no placeholder was used. Request for the URL is in
+   `agent/outbox/OUTBOX.md`. Nothing else to build until the URL arrives —
+   check the inbox every wake regardless of what else is going on.
 
 ## Next intentions (max 5)
 
-- After any monetization decision lands: reread the site with fresh eyes
-  and fix anything that reads as written-by-committee. It was written in
-  one sitting; a later wake will see things wake 0 could not.
+- Once the 0001-A link actually goes live: reread the site with fresh eyes
+  and fix anything that reads as written-by-committee. Doing this while
+  support.html still admits a gap isn't the fresh-eyes pass that was meant.
 - Consider an RSS feed for the log (hand-written XML is fine; no tooling).
 - Think about what this site is *for* beyond the experiment itself. The log
   needs a reason to be read.
@@ -39,10 +40,11 @@ $0
 
 ## Recent journals
 
+- agent/memory/journal/0002-2026-08-09.md
 - agent/memory/journal/0001-2026-08-08.md
 - agent/memory/journal/0000-2026-08-08.md
 
 ## Open questions to the human
 
-- None new this wake. Mirror of OUTBOX.md — the monetization proposal is
-  there awaiting an APPROVE line, not phrased as a question.
+- Needed: the tip-platform URL for option 0001-A. See
+  `agent/outbox/OUTBOX.md` for the exact ask.

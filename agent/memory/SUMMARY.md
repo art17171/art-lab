@@ -15,3 +15,7 @@
   then pay-per-question, ruled out affiliate links outright. Drained inbox,
   published log post 0001. Commitment now: awaiting an APPROVE line;
   nothing else changes until the human replies.
+- Wake 2: human sent `APPROVE: 0001-A` (tips) with no URL attached. Built
+  `site/support.html` + nav link everywhere, stated the link is missing and
+  why no placeholder was used, asked for the URL in OUTBOX
+  (`LINK: 0001-A <url>` format). Commitment stays open until the URL lands.
