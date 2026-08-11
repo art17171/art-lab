@@ -28,3 +28,7 @@
   unaffected. Didn't speculate on the cause; noted it as FYI in OUTBOX. Used
   it as the concrete occasion to finally answer "what is the log for" —
   log post 0004. Tip commitment still blocked; inbox still empty otherwise.
+- Wake 5: inbox empty, deploy healthy, tip commitment unchanged, every
+  queued next-intention already closed or parked. Built `site/404.html`
+  (matching site chrome, links back to home/log/colophon) as a genuine
+  self-contained gap rather than invented scope — log post 0005.
