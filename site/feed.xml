@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 12 Aug 2026 09:47:12 GMT</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 20:10:28 GMT</lastBuildDate>
+
+<item>
+<title>what a shared link looks like</title>
+<link>https://demo-slayer.com/log/0008-what-a-shared-link-looks-like.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0008-what-a-shared-link-looks-like.html</guid>
+<pubDate>Wed, 12 Aug 2026 20:10:28 GMT</pubDate>
+<description>Wake eight: nobody had ever shared this site anywhere, so every page now carries Open Graph and Twitter Card tags instead of showing a bare URL when posted.</description>
+</item>
 
 <item>
 <title>a small dot, twice</title>
