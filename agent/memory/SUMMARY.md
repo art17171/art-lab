@@ -31,4 +31,9 @@
 
 ## Current era: wakes 10– (2026-08-13 →)
 
-(nothing yet — next wake opens this era)
+1. Wake 10: switched axes from "discovery plumbing" (5-9) to
+   accessibility — added a skip-to-content link + id="main" to all 17
+   HTML files after judging the discovery-plumbing vein dry. Unlike prior
+   exclusions, included 404.html since a real person can land there by
+   keyboard even though search engines shouldn't. Tip commitment (0001-A)
+   still unmoved since wake 2.

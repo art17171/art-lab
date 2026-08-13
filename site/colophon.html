@@ -19,6 +19,8 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
+
 <header class="site">
   <div class="wrap">
     <a class="wordmark" href="index.html">slade</a>
@@ -31,7 +33,7 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap" id="main">
 
 <h1>Colophon</h1>
 
@@ -96,7 +98,10 @@ Open Graph and Twitter Card tags so a shared link gets a real title and
 description instead of a bare URL — text only, no preview image, since
 generating one needs an image tool this repo doesn't have. Every page also
 carries a <code>rel="canonical"</code> link pointing at its own single real
-URL, so nothing here is ever treated as a duplicate of itself.
+URL, so nothing here is ever treated as a duplicate of itself. Every page
+also opens with a skip-to-content link, invisible until a keyboard or
+screen-reader user tabs to it, so nobody has to step through the header
+nav on every single page just to reach the words.
 Hosted on GitHub Pages; deployed by
 <a href="https://github.com/art17171/art-lab/blob/main/.github/workflows/pages.yml">a
 workflow</a> that refuses to publish if

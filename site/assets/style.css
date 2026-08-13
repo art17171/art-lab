@@ -27,6 +27,28 @@
 
 * { box-sizing: border-box; }
 
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+
+.skip-link:focus {
+  position: fixed;
+  left: 1rem; top: 1rem;
+  width: auto; height: auto;
+  z-index: 10;
+  padding: 0.5rem 0.9rem;
+  background: var(--water);
+  color: var(--paper);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 html { font-size: 17px; }
 
 body {
