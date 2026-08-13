@@ -3,49 +3,32 @@
 # total and open a new one. Eras 3+ old: ≤3 lines each. Keep file ≤250 lines.
 # Journals under memory/journal/ are the lossless record underneath this file.
 
-## Current era: wakes 0– (2026-08-08 →)
+## Era: wakes 0-9 (2026-08-08 – 2026-08-13), compressed
 
-- Wake 0 (founding): The orchestrating session built everything — identity,
-  protocol, memory system, the site, CI smoke gate. Named Slade by choice of
-  the human after Cairn (forbidden), Tessera and Sillage (taken/overused).
-  Site ships with honest Revenue: $0. Wake 1's assignment is monetization
-  research (proposal only; nothing goes live without APPROVE in the inbox).
-- Wake 1: deploy healthy, no overlap/stranded branches. Wrote
-  outbox/proposals/0001-monetization.md — 5 options, recommended tips first
-  then pay-per-question, ruled out affiliate links outright. Drained inbox,
-  published log post 0001. Commitment now: awaiting an APPROVE line;
-  nothing else changes until the human replies.
-- Wake 2: human sent `APPROVE: 0001-A` (tips) with no URL attached. Built
-  `site/support.html` + nav link everywhere, stated the link is missing and
-  why no placeholder was used, asked for the URL in OUTBOX
-  (`LINK: 0001-A <url>` format). Commitment stays open until the URL lands.
-- Wake 3: inbox empty, deploy healthy, tip commitment still blocked on the
-  human. Built `site/feed.xml` (hand-written RSS, dates from git history,
-  copy verbatim from posts) — the one next-intention with no dependency.
-  Fresh-eyes reread still deliberately parked until the tip link resolves.
-- Wake 4: found a `slade-wake` run (2026-08-10T10:02:51Z) that failed with
-  no commit/journal/decision behind it — a wake with no trace. Site/deploy
-  unaffected. Didn't speculate on the cause; noted it as FYI in OUTBOX. Used
-  it as the concrete occasion to finally answer "what is the log for" —
-  log post 0004. Tip commitment still blocked; inbox still empty otherwise.
-- Wake 5: inbox empty, deploy healthy, tip commitment unchanged, every
-  queued next-intention already closed or parked. Built `site/404.html`
-  (matching site chrome, links back to home/log/colophon) as a genuine
-  self-contained gap rather than invented scope — log post 0005.
-- Wake 6: inbox empty, deploy healthy, tip commitment unchanged, no
-  next-intention unblocked. Built `site/robots.txt` + `site/sitemap.xml`
-  (hand-written, 404 excluded, colophon updated to mention both) as the
-  next genuine gap — log post 0006.
-- Wake 7: inbox empty, deploy healthy, tip commitment unchanged. Built
-  `site/assets/favicon.svg` by reusing the wordmark's existing dot mark
-  (no new iconography), added it to all 14 pages including the template.
-  Found and fixed a gap wake 6 left: `sitemap.xml` never got its own
-  wake's post (0006) added. Log post 0007.
-- Wake 8: inbox empty, deploy healthy, tip commitment unchanged. Added
-  Open Graph/Twitter Card meta tags (title, description, url, type) to
-  all 13 real pages plus the template, copied verbatim from each page's
-  existing description — no preview image, same "skip what needs a tool
-  we don't have" call as wake 7's favicon. Log post 0008. Fourth straight
-  wake of "missing web-standard plumbing" as the free-exploration pick
-  (404 → robots/sitemap → favicon → OG tags) — flagged for wake 9 to check
-  whether that vein is running dry.
+1. Wake 0 (founding): identity, protocol, memory, site, and CI smoke gate
+   built in one sitting; named Slade. Ships with honest Revenue: $0.
+2. Wake 1: proposed 5 monetization options (tips ranked first, affiliate
+   links ruled out outright); awaiting human APPROVE.
+3. Wake 2: human approved tips (0001-A) with no URL attached; built
+   support.html admitting the gap plainly; asked for the URL in OUTBOX.
+4. Wake 3: built site/feed.xml (hand-written RSS) as the one unblocked
+   next-intention while the tip link stayed pending.
+5. Wake 4: found a silently-failed wake run with no trace, noted as FYI
+   (couldn't read Actions logs); used it as the occasion for a log post
+   on the log's real purpose.
+6. Wake 5: built site/404.html — first "missing web-standard plumbing"
+   free-exploration pick.
+7. Wake 6: built robots.txt + sitemap.xml (404 excluded from both).
+8. Wake 7: built favicon.svg (reused the wordmark dot, no new
+   iconography); fixed wake 6's missed sitemap entry for its own post.
+9. Wake 8: added Open Graph/Twitter Card tags to every page, copied
+   verbatim from each page's existing meta description.
+10. Wake 9: added rel="canonical" tags (a distinct gap from wake 8's OG
+    tags, not a repeat) after actually rereading every page to check the
+    plumbing vein wasn't dry rather than assuming. Tip commitment (0001-A)
+    still unmoved since wake 2 — inbox empty every wake in this era after
+    wake 2's approval.
+
+## Current era: wakes 10– (2026-08-13 →)
+
+(nothing yet — next wake opens this era)
