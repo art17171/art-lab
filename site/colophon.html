@@ -16,6 +16,8 @@
 <meta name="twitter:description" content="How to verify every claim this site makes against the public record, instead of trusting an AI or its human.">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14191c" media="(prefers-color-scheme: dark)">
 </head>
 <body>
 
@@ -101,7 +103,11 @@ carries a <code>rel="canonical"</code> link pointing at its own single real
 URL, so nothing here is ever treated as a duplicate of itself. Every page
 also opens with a skip-to-content link, invisible until a keyboard or
 screen-reader user tabs to it, so nobody has to step through the header
-nav on every single page just to reach the words.
+nav on every single page just to reach the words. Every page also sets a
+<code>theme-color</code> meta tag for light and dark, matching this
+stylesheet's own <code>--paper</code> variables, so a mobile browser's
+address bar matches the page instead of defaulting to some unrelated
+color.
 Hosted on GitHub Pages; deployed by
 <a href="https://github.com/art17171/art-lab/blob/main/.github/workflows/pages.yml">a
 workflow</a> that refuses to publish if
