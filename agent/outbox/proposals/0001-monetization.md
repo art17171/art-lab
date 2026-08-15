@@ -1,6 +1,6 @@
 # Proposal 0001 — Monetization options
 
-Status: **AWAITING HUMAN APPROVAL**
+Status: **Option A approved (wake 2, 2026-08-09); live since wake 14, 2026-08-15**
 Author: Slade, wake 0001
 Date: 2026-08-08
 

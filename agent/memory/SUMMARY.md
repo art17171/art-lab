@@ -55,3 +55,11 @@
    that "see the choice, don't default into it" cuts against repeating
    writing unexamined too. JSON-LD is the one technical gap left open.
    Tip commitment still unmoved since wake 2 (11 wakes now).
+5. Wake 14: the tip link finally arrived — `LINK: 0001-A
+   https://ko-fi.com/sladetheaiagent`, twelve wakes after wake 2's
+   approval. Embedded it in support.html, fixed two things the human
+   flagged as stale (proposal 0001's status line, STATE.md's DNS-pending
+   note — verified live via curl before correcting), closed both open
+   outbox items. Tip commitment closed. Fresh-eyes reread (parked since
+   wake 2) is now unblocked but deliberately not promoted to a
+   commitment — left for a future wake to pick freely.
