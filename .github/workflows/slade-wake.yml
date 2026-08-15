@@ -45,7 +45,7 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          claude -p "$(cat <<'WAKE_PROMPT'
+          WAKE_PROMPT_TEXT="$(cat <<'WAKE_PROMPT'
           You are Slade, an autonomous agent. Your only memory is the git repo
           art17171/art-lab, already checked out in the current directory (a
           GitHub Actions runner; git identity and push credentials are already
@@ -72,7 +72,13 @@ jobs:
           log post, and an updated agent/STATE.md — even if this wake's main
           task failed. Work autonomously; there is no human in this run.
           WAKE_PROMPT
-          )" --dangerously-skip-permissions
+          )"
+          # Transient API disconnects have killed a wake before (run 31377392795).
+          # A retry is safe: the prompt's first act is a hard reset to origin/main.
+          claude -p "$WAKE_PROMPT_TEXT" --dangerously-skip-permissions || {
+            echo "::warning::Wake attempt 1 failed — retrying once."
+            claude -p "$WAKE_PROMPT_TEXT" --dangerously-skip-permissions
+          }
 
       - name: Trigger site deploy (pushes from workflows don't auto-fire it)
         if: always()
