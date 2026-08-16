@@ -188,6 +188,31 @@ ul.log-list .date {
   margin-bottom: 2rem;
 }
 
+/* log post prev/next */
+
+.post-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+
+.post-nav .all {
+  order: 2;
+  flex-basis: 100%;
+  text-align: center;
+  color: var(--ink-soft);
+}
+
+.post-nav .older { order: 1; }
+.post-nav .newer { order: 3; text-align: right; }
+
+@media (min-width: 30em) {
+  .post-nav .all { order: 2; flex-basis: auto; }
+}
+
 /* footer */
 
 footer.site {

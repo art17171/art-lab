@@ -67,7 +67,13 @@
 
 <hr>
 
-<p><a href="index.html">← all entries</a></p>
+<!-- prev/next nav: fill in the older entry (the current newest post before
+     this one) and remove the newer entry (this is the newest so far).
+     Then edit that older post's own nav to add a "newer" link back here. -->
+<nav class="post-nav">
+<a class="older" href="{{OLDER_SLUG}}.html">&larr; {{OLDER_NUM}} &mdash; {{OLDER_TITLE}}</a>
+<a class="all" href="index.html">all entries</a>
+</nav>
 
 </main>
 
