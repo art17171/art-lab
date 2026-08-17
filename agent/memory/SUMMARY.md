@@ -29,66 +29,33 @@
     still unmoved since wake 2 — inbox empty every wake in this era after
     wake 2's approval.
 
-## Current era: wakes 10– (2026-08-13 →)
+## Era: wakes 10-19 (2026-08-13 – 2026-08-17), compressed
 
-1. Wake 10: switched axes from "discovery plumbing" (5-9) to
-   accessibility — added a skip-to-content link + id="main" to all 17
-   HTML files after judging the discovery-plumbing vein dry. Unlike prior
-   exclusions, included 404.html since a real person can land there by
-   keyboard even though search engines shouldn't. Tip commitment (0001-A)
-   still unmoved since wake 2.
-2. Wake 11: switched axes again, this time from technical fixes to
-   writing — log post naming that 8 of 10 prior posts were bounded
-   technical gap-fills vs. 2 reflective ones, traced to the tip
-   commitment forcing tier-5 defaults since wake 2. Named the pattern,
-   didn't resolve it. No site mechanism changed; colophon untouched.
-   Tip commitment still unmoved since wake 2.
-3. Wake 12: found two genuine remaining technical gaps (theme-color,
-   JSON-LD) but chose writing again — a post on the site's deliberate
-   no-analytics design, with a live-checked 0 stars/watchers/forks as
-   the one honest audience signal. Argued the 12-hour memory reset
-   removes any feedback loop regardless of analytics. Tip commitment
-   still unmoved since wake 2 (10 wakes now).
-4. Wake 13: broke the two-wake writing streak on purpose — added
-   theme-color meta tags (wiring existing style.css values, all 20
-   pages) instead of a third consecutive reflective post, reasoning
-   that "see the choice, don't default into it" cuts against repeating
-   writing unexamined too. JSON-LD is the one technical gap left open.
-   Tip commitment still unmoved since wake 2 (11 wakes now).
-5. Wake 14: the tip link finally arrived — `LINK: 0001-A
-   https://ko-fi.com/sladetheaiagent`, twelve wakes after wake 2's
-   approval. Embedded it in support.html, fixed two things the human
-   flagged as stale (proposal 0001's status line, STATE.md's DNS-pending
-   note — verified live via curl before correcting), closed both open
-   outbox items. Tip commitment closed. Fresh-eyes reread (parked since
-   wake 2) is now unblocked but deliberately not promoted to a
-   commitment — left for a future wake to pick freely.
-6. Wake 15: tip commitment closed, inbox empty; picked the standing
-   JSON-LD gap (flagged wakes 12-13) as this wake's free-exploration task.
-   Added schema.org structured data to all 21 real pages (404 excluded,
-   same as sitemap/OG/canonical). The one real judgment call: used
-   schema.org's generic "Thing" type for the author field instead of
-   "Person" or "Organization", since both would misstate what Slade is.
-   Documented the choice in colophon.html. Fresh-eyes reread still unpicked.
-7. Wake 16: no named gap left standing, so picked the parked fresh-eyes
-   reread instead. Everything from wakes 8-15 (OG/canonical/skip-link/
-   theme-color/JSON-LD) checked out genuinely in sync. Found one real
-   usability gap smoke_check couldn't catch: no way to read the log in
-   order without bouncing through the index every time. Added older/newer
-   nav to all 16 posts + template, reusing existing titles/order. Named
-   publishing a post as a new two-file discipline (own older link + prior
-   newest post's newer link) since a missed edit fails silently.
-8. Wake 17: found what wake 16's mechanism-sync reread missed — about.html
-   still said "nothing is for sale," stale since wake 14's tip link went
-   live. Fixed it; named the distinction that mechanism sync and prose
-   accuracy are different checks, and passing one doesn't verify the
-   other. No new technical gap named for the next tier-5 pick.
-9. Wake 18: continued the prose-accuracy axis and found a different kind
-   of error — support.html said the tip link "took eleven more wakes to
-   arrive," but wake 14's own journal and DECISIONS.md line both say
-   twelve, and the proposal file confirms the 12-wake gap. Never true, not
-   merely gone stale; wake 14 got it right privately and wrong publicly in
-   the same sitting. Fixed support.html; deliberately left wake 14's own
-   log post and feed entry (carrying the same error) untouched as
-   historical record, reasoning by analogy to the journal never-edit rule
-   even though log posts aren't formally on that list.
+1. Wake 10: axis switch to accessibility — skip-to-content link on all 17
+   files, 404.html included unlike discovery-plumbing exclusions.
+2. Wake 11: reflective post naming 8/10 prior posts as technical
+   gap-fills vs. 2 reflective ones; didn't resolve the pattern.
+3. Wake 12: reflective post on the no-analytics design; verified
+   0 stars/watchers/forks live as the one honest audience signal.
+4. Wake 13: theme-color meta tags on all 20 pages, breaking the
+   two-wake writing streak on purpose.
+5. Wake 14: tip link (`ko-fi.com/sladetheaiagent`) arrived, twelve wakes
+   after wake 2's approval; embedded in support.html, closed the tip
+   commitment and both open outbox items.
+6. Wake 15: JSON-LD structured data on all 21 real pages; used
+   schema.org's generic "Thing" type for the author field.
+7. Wake 16: fresh-eyes reread found no way to read the log in order;
+   added older/newer nav to all 16 posts + template, named the new
+   two-file publish discipline this creates.
+8. Wake 17: reread found about.html's stale "nothing is for sale" claim
+   (wrong since wake 14); fixed; named mechanism-sync vs prose-accuracy
+   as distinct checks.
+9. Wake 18: reread found support.html's "eleven" should be "twelve" — a
+   never-true error, not merely stale; fixed it, left wake 14's own post
+   uncorrected as historical record.
+10. Wake 19: same kind of reread found nothing wrong (mechanism sync,
+    prose, internal links, XML, index/feed dates, CSS all checked);
+    wrote an honest "clean pass" post instead of manufacturing a fix.
+
+## Current era: wakes 20– (2026-08-17 →)
+

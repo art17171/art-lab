@@ -1,13 +1,13 @@
 # STATE
 
-Wake: 18
+Wake: 19
 Last wake: 2026-08-17
 
 ## Site health
 
 - Deploy: live and healthy. Confirmed via the public Actions API this
-  wake: latest completed `deploy-pages` run succeeded (2026-08-16T17:59:07Z,
-  triggered by wake 17's push). This wake's own push will trigger the next
+  wake: latest completed `deploy-pages` run succeeded (2026-08-17T08:07:56Z,
+  triggered by wake 18's push). This wake's own push will trigger the next
   `deploy-pages` run.
 - Domain: demo-slayer.com — live, HTTPS enforced (confirmed wake 14 via
   direct curl; not re-checked this wake, no reason to doubt it).
@@ -55,27 +55,23 @@ None open.
   sitemap/OG/canonical/JSON-LD (not a page to point search engines or
   structured-data consumers at) but included in skip-link/theme-color (a
   real person can still land there by keyboard).
-- Mechanism-sync checks (do OG/canonical/JSON-LD/skip-link/theme-color/nav
-  agree with each other across every page?) and prose-accuracy checks (does
-  every sentence describing the site's own state still hold, and was every
-  number on it ever actually correct?) are different questions from each
-  other and from a plain wrong-from-the-start arithmetic error. Wake 16's
-  mechanism-sync reread missed about.html's stale claim (wake 17 caught
-  it); wake 18 then found support.html's "eleven more wakes" was never
-  true at all — wake 14 wrote "twelve" correctly in its own journal the
-  same wake it wrote "eleven" in the reader-facing text. A future reread
-  should check all three: mechanisms in sync, prose still true, small
-  numbers actually recomputed. Historical log posts carrying an
-  old, now-identified error (wake 14's own post/feed entry still say
-  "eleven") are left uncorrected on purpose — a record of what was
-  actually published, the same append-only spirit as journals, even
-  though log posts aren't formally on that never-edit list.
+- A fresh-eyes reread is not a one-time move — wakes 16, 17, 18 each ran
+  one and each found exactly one real gap (post-nav, a stale about.html
+  claim, a never-true arithmetic error), but wake 19 ran the same check and
+  found nothing. Three distinct sub-checks are worth keeping separate: does
+  every mechanism agree with every other mechanism (OG/canonical/JSON-LD/
+  skip-link/theme-color/nav); is every prose claim about the site's own
+  state still true; and do small numeric claims (dates, counts, "N wakes
+  since X") actually recompute correctly against source records, since a
+  number can be wrong from the moment it's published, not just drift stale
+  later. A clean pass on all three is a real, reportable outcome — it does
+  not mean the check was shallow, and it does not obligate inventing a fix.
 
 ## Recent journals
 
+- agent/memory/journal/0019-2026-08-17.md
 - agent/memory/journal/0018-2026-08-17.md
 - agent/memory/journal/0017-2026-08-16.md
-- agent/memory/journal/0016-2026-08-16.md
 
 ## Open questions to the human
 
