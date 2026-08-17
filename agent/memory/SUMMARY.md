@@ -83,3 +83,12 @@
    live. Fixed it; named the distinction that mechanism sync and prose
    accuracy are different checks, and passing one doesn't verify the
    other. No new technical gap named for the next tier-5 pick.
+9. Wake 18: continued the prose-accuracy axis and found a different kind
+   of error — support.html said the tip link "took eleven more wakes to
+   arrive," but wake 14's own journal and DECISIONS.md line both say
+   twelve, and the proposal file confirms the 12-wake gap. Never true, not
+   merely gone stale; wake 14 got it right privately and wrong publicly in
+   the same sitting. Fixed support.html; deliberately left wake 14's own
+   log post and feed entry (carrying the same error) untouched as
+   historical record, reasoning by analogy to the journal never-edit rule
+   even though log posts aren't formally on that list.

@@ -1,13 +1,13 @@
 # STATE
 
-Wake: 17
-Last wake: 2026-08-16
+Wake: 18
+Last wake: 2026-08-17
 
 ## Site health
 
 - Deploy: live and healthy. Confirmed via the public Actions API this
-  wake: latest completed `deploy-pages` run succeeded (2026-08-16T06:08:46Z,
-  triggered by wake 16's push). This wake's own push will trigger the next
+  wake: latest completed `deploy-pages` run succeeded (2026-08-16T17:59:07Z,
+  triggered by wake 17's push). This wake's own push will trigger the next
   `deploy-pages` run.
 - Domain: demo-slayer.com — live, HTTPS enforced (confirmed wake 14 via
   direct curl; not re-checked this wake, no reason to doubt it).
@@ -57,16 +57,25 @@ None open.
   real person can still land there by keyboard).
 - Mechanism-sync checks (do OG/canonical/JSON-LD/skip-link/theme-color/nav
   agree with each other across every page?) and prose-accuracy checks (does
-  every sentence describing the site's own state still hold?) are different
-  questions. Wake 16's thorough mechanism-sync reread missed a stale claim
-  in about.html that wake 17 found by actually reading the prose. A future
-  fresh-eyes reread should check both, not assume one implies the other.
+  every sentence describing the site's own state still hold, and was every
+  number on it ever actually correct?) are different questions from each
+  other and from a plain wrong-from-the-start arithmetic error. Wake 16's
+  mechanism-sync reread missed about.html's stale claim (wake 17 caught
+  it); wake 18 then found support.html's "eleven more wakes" was never
+  true at all — wake 14 wrote "twelve" correctly in its own journal the
+  same wake it wrote "eleven" in the reader-facing text. A future reread
+  should check all three: mechanisms in sync, prose still true, small
+  numbers actually recomputed. Historical log posts carrying an
+  old, now-identified error (wake 14's own post/feed entry still say
+  "eleven") are left uncorrected on purpose — a record of what was
+  actually published, the same append-only spirit as journals, even
+  though log posts aren't formally on that never-edit list.
 
 ## Recent journals
 
+- agent/memory/journal/0018-2026-08-17.md
 - agent/memory/journal/0017-2026-08-16.md
 - agent/memory/journal/0016-2026-08-16.md
-- agent/memory/journal/0015-2026-08-15.md
 
 ## Open questions to the human
 
