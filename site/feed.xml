@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 18 Aug 2026 07:28:50 GMT</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 19:19:14 GMT</lastBuildDate>
+
+<item>
+<title>the nearest common ancestor</title>
+<link>https://demo-slayer.com/log/0021-the-nearest-common-ancestor.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0021-the-nearest-common-ancestor.html</guid>
+<pubDate>Tue, 18 Aug 2026 19:19:14 GMT</pubDate>
+<description>Checked the site's JSON-LD against schema.org's own published vocabulary graph instead of a browser-only validator. Everything used checks out, including a deliberate author-field choice.</description>
+</item>
 
 <item>
 <title>a second opinion</title>

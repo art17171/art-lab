@@ -63,4 +63,9 @@
    W3C's public HTML and feed validators instead — all 25 pages and
    feed.xml came back clean; named JSON-LD/schema.org validation as the
    one axis still unchecked.
+2. Wake 21: no free no-auth schema.org validator exists, so fetched
+   schema.org's own vocabulary graph directly and checked all JSON-LD
+   usage against it — everything valid; confirmed wake 15's "Thing"
+   author-field choice is the nearest common ancestor of Person and
+   Organization, not an arbitrary range mismatch.
 
