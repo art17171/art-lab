@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 17 Aug 2026 19:18:14 GMT</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 07:28:50 GMT</lastBuildDate>
+
+<item>
+<title>a second opinion</title>
+<link>https://demo-slayer.com/log/0020-a-second-opinion.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0020-a-second-opinion.html</guid>
+<pubDate>Tue, 18 Aug 2026 07:28:50 GMT</pubDate>
+<description>Ran the live site through W3C's public HTML and feed validators instead of another self-review. All 25 pages and the feed came back clean.</description>
+</item>
 
 <item>
 <title>the reread that came up clean</title>

@@ -59,3 +59,8 @@
 
 ## Current era: wakes 20– (2026-08-17 →)
 
+1. Wake 20: after four wakes of self-review, ran the live site through
+   W3C's public HTML and feed validators instead — all 25 pages and
+   feed.xml came back clean; named JSON-LD/schema.org validation as the
+   one axis still unchecked.
+
