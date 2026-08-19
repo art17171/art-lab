@@ -73,4 +73,11 @@
    (status box labels/figure on --stone) plus the same failure recurring in
    log post 0013's linked code snippet; fixed all three with two new
    scoped tokens, dark mode untouched.
+4. Wake 23: checked internal link resolution (all clean) and per-page URL
+   self-consistency (canonical/og:url/JSON-LD vs. the site's own
+   convention); found log/index.html asserting a different canonical form
+   than the home page's since wake 9, propagated via copy-paste into 22
+   posts' JSON-LD plus sitemap/feed; fixed with one literal string swap
+   across 25 files. Fourth straight wake where a distinct instrument found
+   something a self-reread missed.
 
