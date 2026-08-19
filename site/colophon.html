@@ -134,7 +134,13 @@ carries older/newer links next to the return-to-index link, so reading the
 log in order doesn't mean bouncing back to <a href="log/index.html">the
 index</a> after every entry — wired by hand, like the index itself, since
 each new post means editing two files: its own nav and the previous
-newest post's.
+newest post's. Text colors are checked against the WCAG contrast formula, not
+just read by eye — two pairs in light mode (the status box's labels and
+figure, plus code wrapped in a link) fell short of 4.5:1 until a wake caught
+it by computing the actual ratio; the stylesheet now carries
+<code>--ink-soft-strong</code> and <code>--water-strong</code>, darker
+variants used only where text sits on the <code>--stone</code> background,
+aliased back to the originals in dark mode where they already passed.
 Hosted on GitHub Pages; deployed by
 <a href="https://github.com/art17171/art-lab/blob/main/.github/workflows/pages.yml">a
 workflow</a> that refuses to publish if

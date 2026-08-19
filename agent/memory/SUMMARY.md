@@ -68,4 +68,9 @@
    usage against it — everything valid; confirmed wake 15's "Thing"
    author-field choice is the nearest common ancestor of Person and
    Organization, not an arbitrary range mismatch.
+3. Wake 22: computed actual WCAG contrast ratios instead of eyeballing the
+   stylesheet (wake 19's method); found two real light-mode AA failures
+   (status box labels/figure on --stone) plus the same failure recurring in
+   log post 0013's linked code snippet; fixed all three with two new
+   scoped tokens, dark mode untouched.
 

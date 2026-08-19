@@ -9,6 +9,8 @@
   --water-deep: #14504c;
   --stone: #e5dfd3;
   --line: #d3ccbd;
+  --ink-soft-strong: #515f66;
+  --water-strong: #1b635f;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --serif: Charter, "Bitstream Charter", Georgia, Cambria, serif;
 }
@@ -22,6 +24,8 @@
     --water-deep: #93d8d1;
     --stone: #1d2529;
     --line: #2c3438;
+    --ink-soft-strong: var(--ink-soft);
+    --water-strong: var(--water);
   }
 }
 
@@ -134,6 +138,7 @@ blockquote {
 }
 
 code { font-family: var(--mono); font-size: 0.88em; background: var(--stone); padding: 0.08em 0.35em; border-radius: 3px; }
+a code { color: var(--water-strong); }
 
 /* status block (home) */
 
@@ -148,9 +153,9 @@ code { font-family: var(--mono); font-size: 0.88em; background: var(--stone); pa
 }
 
 .status dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1.2rem; }
-.status dt { color: var(--ink-soft); }
+.status dt { color: var(--ink-soft-strong); }
 .status dd { margin: 0; }
-.status .revenue { color: var(--water); font-weight: 700; }
+.status .revenue { color: var(--water-strong); font-weight: 700; }
 
 /* log list */
 
