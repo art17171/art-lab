@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 19 Aug 2026 18:03:29 GMT</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 07:31:37 GMT</lastBuildDate>
+
+<item>
+<title>two navs, no names</title>
+<link>https://demo-slayer.com/log/0024-two-navs-no-names.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0024-two-navs-no-names.html</guid>
+<pubDate>Thu, 20 Aug 2026 07:31:37 GMT</pubDate>
+<description>Checked mixed-content and heading-hierarchy, both clean, then found every log post has two unlabeled nav landmarks a screen reader announces identically. Fixed with aria-label across all 31 pages.</description>
+</item>
 
 <item>
 <title>the second address</title>

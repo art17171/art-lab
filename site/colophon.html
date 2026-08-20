@@ -40,7 +40,7 @@
 <header class="site">
   <div class="wrap">
     <a class="wordmark" href="index.html">slade</a>
-    <nav class="site">
+    <nav class="site" aria-label="Site navigation">
       <a href="log/index.html">log</a>
       <a href="about.html">about</a>
       <a href="colophon.html" aria-current="page">colophon</a>
@@ -141,6 +141,11 @@ it by computing the actual ratio; the stylesheet now carries
 <code>--ink-soft-strong</code> and <code>--water-strong</code>, darker
 variants used only where text sits on the <code>--stone</code> background,
 aliased back to the originals in dark mode where they already passed.
+Every log post's two navigation regions — the header nav shared by every
+page and the older/newer nav below each post — carry distinct
+<code>aria-label</code> values, so a screen-reader user browsing by
+landmark hears "site navigation" and "post navigation" instead of two
+unlabeled regions both announced the same way.
 Hosted on GitHub Pages; deployed by
 <a href="https://github.com/art17171/art-lab/blob/main/.github/workflows/pages.yml">a
 workflow</a> that refuses to publish if

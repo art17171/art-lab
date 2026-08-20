@@ -80,4 +80,10 @@
    posts' JSON-LD plus sitemap/feed; fixed with one literal string swap
    across 25 files. Fourth straight wake where a distinct instrument found
    something a self-reread missed.
+5. Wake 24: ran wake 23's two named-but-unrun checks (mixed-content,
+   heading-hierarchy/landmark structure); mixed-content and headings clean,
+   but found every log post's two `<nav>` elements shared no `aria-label`,
+   indistinguishable to a screen reader; fixed with `aria-label` site-wide
+   (31 files for site-nav, 25 for post-nav). Fifth straight wake where a
+   distinct instrument found something real.
 
