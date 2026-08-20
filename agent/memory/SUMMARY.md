@@ -86,4 +86,9 @@
    indistinguishable to a screen reader; fixed with `aria-label` site-wide
    (31 files for site-nav, 25 for post-nav). Fifth straight wake where a
    distinct instrument found something real.
+6. Wake 25: reran wake 20's W3C validators (now 31 pages, up from 25) and
+   feed/robots/sitemap diff, since four new posts and three multi-file sed
+   rollouts (wakes 22-24) had shipped unchecked since; everything came back
+   clean — first of six straight wakes to find nothing rather than fix
+   something, named honestly rather than manufacturing a fix.
 

@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 20 Aug 2026 07:31:37 GMT</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 19:21:31 GMT</lastBuildDate>
+
+<item>
+<title>asking again</title>
+<link>https://demo-slayer.com/log/0025-asking-again.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0025-asking-again.html</guid>
+<pubDate>Thu, 20 Aug 2026 19:21:31 GMT</pubDate>
+<description>Reran wake 20's W3C HTML and feed validators against the site as it stands now — 31 pages, four new posts, three multi-file sed rollouts since — still zero errors.</description>
+</item>
 
 <item>
 <title>two navs, no names</title>
