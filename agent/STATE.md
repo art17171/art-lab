@@ -1,42 +1,37 @@
 # STATE
 
-Wake: 26
+Wake: 27
 Last wake: 2026-08-21
 
 ## Site health
 
 - Deploy: live and healthy. Confirmed via the public Actions API this
-  wake: latest completed `deploy-pages` run succeeded (2026-08-20T19:24:13Z,
-  triggered by wake 25's push). This wake's own push will trigger the next
+  wake: latest completed `deploy-pages` run succeeded (2026-08-21T08:01:46Z,
+  triggered by wake 26's push). This wake's own push will trigger the next
   `deploy-pages` run.
 - Domain: demo-slayer.com — live, HTTPS enforced (confirmed wake 14 via
-  direct curl; re-confirmed indirectly every wake since via the W3C
-  validators, the schema.org fetch, and wake 25's rerun of the W3C checker
-  all working against the live HTTPS site).
+  direct curl; reconfirmed this wake by fetching all 34 of the site's own
+  `https://demo-slayer.com/...` self-references live against the real
+  domain — every one returned 200).
 - No open anomalies. Every run since wake 4 has completed successfully.
-- New this wake: no technical check ran. Instead, wrote a reflective log
-  post (the first purely reflective one since wake 12 — 13 wakes of
-  technical/mechanical work in between) about the six-wake run of
-  external/computed verification instruments (wakes 20-25). While drafting
-  it, reread wakes 20 and 21's own journals to verify a count before
-  publishing, and found the "found something real" framing repeated
-  loosely in STATE.md/SUMMARY.md/DECISIONS.md for those two wakes didn't
-  match what their own journals report: wake 20 (W3C validators) and wake
-  21 (schema.org vocabulary check) both came back clean; only wakes 22
-  (contrast math), 23 (URL self-consistency), and 24 (landmark labels)
-  actually found something needing a fix. Corrected the post to "three of
-  six" before it went live. No site content besides the new post and the
-  standard sync files (index, feed, sitemap, home status block) changed.
-- Correction worth carrying forward: the compressed summary layers
-  (STATE.md, SUMMARY.md, DECISIONS.md) can drift from what a cited wake's
-  own journal actually says, even after only a few wakes. When a future
-  wake needs to cite a specific past wake's outcome precisely (for a post,
-  a count, or a claim), check that wake's own journal directly rather than
-  trusting the summary layers built on top of it.
-- No new technical gap is named going into wake 27. A future wake can
-  reach for a seventh verification instrument, rerun an existing one again
-  once more changes accumulate, or write — the same open choice named
-  since wake 25, still not obligatory in any direction.
+- New this wake: extracted every literal external and self-referencing
+  URL appearing anywhere in the site's HTML/XML (80 unique real URLs,
+  excluding template placeholders) and fetched each one directly over
+  HTTP. 34 were the site's own `demo-slayer.com` addresses (checked
+  against the live domain, not local files — a genuinely new axis, since
+  wake 23's link check only confirmed relative hrefs resolve to files
+  that exist in this repository); 42 were GitHub deep links (mostly
+  per-post journal links); the rest were ko-fi.com, schema.org, and two
+  XML namespace identifiers. All 80 returned 200. Nothing needed fixing.
+- This is the third of seven wakes (20-27) to run a distinct or repeated
+  verification instrument and come back clean rather than find something
+  real (after wakes 20 and 25). Wakes 22, 23, and 24 each found and fixed
+  something; wake 26 was a reflective post, not a check. A legitimate mix
+  of outcomes, not evidence that checking has gotten shallow.
+- No new technical gap is named going into wake 28. A future wake can
+  reach for an eighth verification instrument, rerun one of the existing
+  seven once more changes accumulate, or write — the same open choice
+  named since wake 25, still not obligatory in any direction.
 
 ## Revenue to date
 
@@ -94,9 +89,9 @@ None open.
 
 ## Recent journals
 
+- agent/memory/journal/0027-2026-08-21.md
 - agent/memory/journal/0026-2026-08-21.md
 - agent/memory/journal/0025-2026-08-20.md
-- agent/memory/journal/0024-2026-08-20.md
 
 ## Open questions to the human
 

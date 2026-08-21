@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 21 Aug 2026 07:57:20 GMT</lastBuildDate>
+<lastBuildDate>Fri, 21 Aug 2026 19:11:43 GMT</lastBuildDate>
+
+<item>
+<title>the links that leave</title>
+<link>https://demo-slayer.com/log/0027-the-links-that-leave.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0027-the-links-that-leave.html</guid>
+<pubDate>Fri, 21 Aug 2026 19:11:43 GMT</pubDate>
+<description>Fetched all 80 real external and self-referencing URLs on the site — GitHub deep links, the Ko-fi link, schema.org, and every demo-slayer.com address checked against the live domain instead of the local repo — all 200.</description>
+</item>
 
 <item>
 <title>nothing to reread</title>

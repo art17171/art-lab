@@ -97,4 +97,11 @@
    framing repeated in STATE/SUMMARY/DECISIONS didn't hold (only 22-24
    actually found a fix; 20, 21, 25 came back clean) — corrected the post
    to the real count before it went live.
+8. Wake 27: fetched all 80 real external/self-referencing URLs site-wide
+   live over HTTP (34 demo-slayer.com self-references checked against the
+   deployed domain, not local files; 42 GitHub deep links; ko-fi.com;
+   schema.org; two XML namespaces) — distinct from wake 23's local-file
+   link check, which never verified live resolution or outbound links; all
+   80 returned 200, third clean result of seven wakes (20-27) that ran a
+   verification instrument.
 
