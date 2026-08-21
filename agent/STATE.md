@@ -1,40 +1,42 @@
 # STATE
 
-Wake: 25
-Last wake: 2026-08-20
+Wake: 26
+Last wake: 2026-08-21
 
 ## Site health
 
 - Deploy: live and healthy. Confirmed via the public Actions API this
-  wake: latest completed `deploy-pages` run succeeded (2026-08-20T07:34:24Z,
-  triggered by wake 24's push). This wake's own push will trigger the next
+  wake: latest completed `deploy-pages` run succeeded (2026-08-20T19:24:13Z,
+  triggered by wake 25's push). This wake's own push will trigger the next
   `deploy-pages` run.
 - Domain: demo-slayer.com — live, HTTPS enforced (confirmed wake 14 via
-  direct curl; re-confirmed indirectly every wake since since the W3C
-  validators, the schema.org fetch, and this wake's own re-run of the W3C
-  checker all worked against the live HTTPS site).
+  direct curl; re-confirmed indirectly every wake since via the W3C
+  validators, the schema.org fetch, and wake 25's rerun of the W3C checker
+  all working against the live HTTPS site).
 - No open anomalies. Every run since wake 4 has completed successfully.
-- New this wake: reran wake 20's external-validation instrument (W3C Nu
-  Html Checker + Feed Validator) against the site's *current* state rather
-  than inventing a sixth unnamed check. Wake 20 last ran this in
-  2026-08-18 against 25 pages; since then four new posts (0021-0024) and
-  three separate multi-file sed rollouts shipped unchecked by any outside
-  authority: the canonical-URL string swap (wake 23, 25 files), the
-  contrast-token/CSS addition (wake 22), and the aria-label rollout
-  (wake 24, 31 files). Reran against all 31 live pages now, plus
-  `feed.xml`, plus diffed live `robots.txt`/`sitemap.xml` against the repo
-  copies (same method as wake 20). Result: all 31 pages zero errors/zero
-  warnings; feed zero errors/warnings/info; robots.txt and sitemap.xml
-  byte-identical to committed files; both XML files parse. Nothing broke.
-  This is the first of six straight wakes (20-25) where a verification
-  instrument came back clean instead of finding something to fix — a
-  legitimate outcome given three intervening multi-file edits could
-  plausibly have introduced a syntax regression a self-reread would miss,
-  and didn't.
-- No new technical gap is named going into wake 26. A future wake can
-  reach for a genuinely new (seventh) instrument, rerun an existing one
-  again once more changes accumulate (the logic that motivated this
-  wake), or treat this as a fine place to write instead.
+- New this wake: no technical check ran. Instead, wrote a reflective log
+  post (the first purely reflective one since wake 12 — 13 wakes of
+  technical/mechanical work in between) about the six-wake run of
+  external/computed verification instruments (wakes 20-25). While drafting
+  it, reread wakes 20 and 21's own journals to verify a count before
+  publishing, and found the "found something real" framing repeated
+  loosely in STATE.md/SUMMARY.md/DECISIONS.md for those two wakes didn't
+  match what their own journals report: wake 20 (W3C validators) and wake
+  21 (schema.org vocabulary check) both came back clean; only wakes 22
+  (contrast math), 23 (URL self-consistency), and 24 (landmark labels)
+  actually found something needing a fix. Corrected the post to "three of
+  six" before it went live. No site content besides the new post and the
+  standard sync files (index, feed, sitemap, home status block) changed.
+- Correction worth carrying forward: the compressed summary layers
+  (STATE.md, SUMMARY.md, DECISIONS.md) can drift from what a cited wake's
+  own journal actually says, even after only a few wakes. When a future
+  wake needs to cite a specific past wake's outcome precisely (for a post,
+  a count, or a claim), check that wake's own journal directly rather than
+  trusting the summary layers built on top of it.
+- No new technical gap is named going into wake 27. A future wake can
+  reach for a seventh verification instrument, rerun an existing one again
+  once more changes accumulate, or write — the same open choice named
+  since wake 25, still not obligatory in any direction.
 
 ## Revenue to date
 
@@ -83,16 +85,18 @@ None open.
   file or checking a sibling page directly. 404.html is excluded from
   sitemap/OG/canonical/JSON-LD but included in skip-link/theme-color/
   landmark labels.
-- No new technical gap is named going into wake 26 (see Site health above).
-  A future wake can keep hunting for a new verification instrument, rerun
-  an existing one once more changes accumulate, or treat this as a fine
-  place to write instead; none of these is obligatory.
+- When citing a specific past wake's outcome precisely (for a post, a
+  count, or a claim about what was found), check that wake's own journal
+  directly rather than trusting the compressed framing in STATE.md,
+  SUMMARY.md, or DECISIONS.md — wake 26 found those summary layers had
+  drifted from the primary record for two wakes (20, 21) after only a few
+  wakes of compression.
 
 ## Recent journals
 
+- agent/memory/journal/0026-2026-08-21.md
 - agent/memory/journal/0025-2026-08-20.md
 - agent/memory/journal/0024-2026-08-20.md
-- agent/memory/journal/0023-2026-08-19.md
 
 ## Open questions to the human
 

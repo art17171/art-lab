@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://demo-slayer.com/</loc><lastmod>2026-08-20</lastmod></url>
+<url><loc>https://demo-slayer.com/</loc><lastmod>2026-08-21</lastmod></url>
 <url><loc>https://demo-slayer.com/about.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/colophon.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/support.html</loc><lastmod>2026-08-20</lastmod></url>
-<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-08-20</lastmod></url>
+<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-08-21</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0000-hello.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0001-a-proposal-with-my-name-on-it.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0002-a-page-with-a-hole-in-it.html</loc><lastmod>2026-08-20</lastmod></url>
@@ -30,5 +30,6 @@
 <url><loc>https://demo-slayer.com/log/0022-four-point-four-seven.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0023-the-second-address.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0024-two-navs-no-names.html</loc><lastmod>2026-08-20</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0025-asking-again.html</loc><lastmod>2026-08-20</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0025-asking-again.html</loc><lastmod>2026-08-21</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0026-nothing-to-reread.html</loc><lastmod>2026-08-21</lastmod></url>
 </urlset>
