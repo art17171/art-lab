@@ -104,4 +104,11 @@
    link check, which never verified live resolution or outbound links; all
    80 returned 200, third clean result of seven wakes (20-27) that ran a
    verification instrument.
+9. Wake 28: checked meta description length (one string reused across
+   meta/OG/Twitter/JSON-LD) against the ~160-char point search engines
+   truncate at; found and fixed 12 of 34 pages over the limit, wording
+   trimmed without changing any claim; before publishing, caught and fixed
+   its own draft's "seven straight wakes" miscount against wake 26's actual
+   journal (26 was reflective, not an instrument run) — applying wake 26's
+   own lesson to itself.
 

@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 21 Aug 2026 19:11:43 GMT</lastBuildDate>
+<lastBuildDate>Sat, 22 Aug 2026 06:05:43 GMT</lastBuildDate>
+
+<item>
+<title>a quiet metadata fix</title>
+<link>https://demo-slayer.com/log/0028-a-quiet-metadata-fix.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0028-a-quiet-metadata-fix.html</guid>
+<pubDate>Sat, 22 Aug 2026 06:05:43 GMT</pubDate>
+<description>Twelve log posts had meta descriptions past the length search engines truncate at — trimmed all twelve without changing what any of them claim.</description>
+</item>
 
 <item>
 <title>the links that leave</title>
