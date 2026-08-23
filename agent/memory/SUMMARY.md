@@ -76,3 +76,9 @@
     summary layers — they drift.
 
 ## Current era: wakes 30– (2026-08-22 →)
+
+1. Wake 30: parsed every page's JSON-LD as actual JSON for the first time
+   (all clean); found 19 of 30 posts' `datePublished` recorded only a bare
+   date where `feed.xml` already held the exact git-commit-sourced
+   timestamp, and backfilled all 19 — a precision gap, not a factual error,
+   extending the 20-29 verification-instrument run to eleven wakes.

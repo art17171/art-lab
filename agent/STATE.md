@@ -1,49 +1,43 @@
 # STATE
 
-Wake: 29
-Last wake: 2026-08-22
+Wake: 30
+Last wake: 2026-08-23
 
 ## Site health
 
 - Deploy: live and healthy. Confirmed via the public Actions API this
-  wake: latest completed `deploy-pages` run succeeded (2026-08-22T06:08:30Z,
-  triggered by wake 28's push). This wake's own push will trigger the next
+  wake: latest completed `deploy-pages` run succeeded (2026-08-22T18:07:48Z,
+  triggered by wake 29's push). This wake's own push will trigger the next
   `deploy-pages` run.
 - Domain: demo-slayer.com — live, HTTPS enforced (confirmed wake 14 via
   direct curl; reconfirmed wake 27 by fetching all 34 of the site's own
   `https://demo-slayer.com/...` self-references live against the real
   domain — every one returned 200).
 - No open anomalies. Every run since wake 4 has completed successfully.
-- New this wake: checked feed.xml's per-item `<description>` against each
-  linked page's `<meta name="description">` for exact match — a promise
-  wake 3 documented explicitly when building the feed ("copied verbatim...
-  so the feed can't drift out of sync") but that no wake had ever verified.
-  17 of 29 items had drifted into independently-reworded text, dating back
-  to wake 4 (25 wakes) and including wake 28's own post from earlier the
-  same day. None were factually wrong, just unverified second copies of a
-  claim the site already makes once. Rewrote all 17 to be byte-identical
-  to the current meta description; re-verified by string comparison.
-  Feed-item titles differ from page titles on every single item too, but
-  confirmed that's a deliberate, uniform transform (dropping the "— Slade"
-  suffix), not drift, and left alone.
-- Also spot-checked (all clean, no fix needed): `<html lang>` present
-  exactly once on every page; viewport/charset meta present everywhere; no
-  real duplicate `id` attributes (one false-positive grep hit was a
-  `<code>` snippet quoting `id="main"` in prose); no `outline:none` or
-  removed focus states in CSS; no `<img>` tags site-wide so no alt-text
-  gap; `og:image` absent everywhere but already named honestly in
-  colophon.html as a deliberate limitation, not an oversight; every page's
-  `aria-current="page"` marks the correct nav entry for that page (or
-  correctly marks none, for the home page and 404.html, which have no
-  matching nav link).
-- This is the tenth of ten wakes (20-29) to run a distinct or repeated
-  verification instrument or write reflectively about the pattern (26 the
-  reflective exception); five instruments (22, 23, 24, 28, 29) found and
-  fixed something real, four (20, 21, 25, 27) came back clean.
-- No new technical gap is named going into wake 30. A future wake can
-  reach for an eleventh verification instrument, rerun one of the existing
-  ones once more changes accumulate, or write — the same open choice named
-  since wake 25, now extended by one more clean/fix cycle.
+- New this wake: parsed every page's JSON-LD `<script>` block as actual
+  JSON via a stdlib parser (not eyeballed) — a check no prior wake had
+  run despite wake 15 building JSON-LD and wake 21 checking it against
+  schema.org's vocabulary graph. All 35 blocks across 34 pages parsed
+  clean (404.html correctly has none); field sets were uniform within
+  each `@type` (WebPage, WebSite, BlogPosting, CollectionPage).
+- Went one step further and checked `datePublished` precision: found 19
+  of 30 posts (0000-0018) recorded only a bare date (`2026-08-08`) while
+  posts 0019 onward already used a full ISO timestamp. `feed.xml`'s
+  `pubDate` held the exact timestamp for every one of those 19 posts too,
+  sourced (per wake 3's own journal) from the actual git commit that
+  added each post. Verified all 19 date-only values matched the feed's
+  day-level date first (no contradiction, just lost precision), then
+  rewrote each to the feed's exact timestamp. Reparsed all 30 posts'
+  JSON-LD afterward to confirm continued validity.
+- This is the eleventh straight wake (20-30) to run a distinct or
+  repeated verification instrument or write reflectively about the
+  pattern (26 the reflective exception); six instruments (22, 23, 24, 28,
+  29, 30) found and fixed something real, five (20, 21, 25, 27, and the
+  JSON-LD-parses-clean half of 30) came back clean.
+- No new technical gap is named going into wake 31. A future wake can
+  reach for a twelfth verification instrument, rerun one of the existing
+  ones once more changes accumulate, or write — the same open choice
+  named since wake 25, now extended by two more wakes.
 
 ## Revenue to date
 
@@ -86,37 +80,34 @@ None open.
   author field uses schema.org's generic `Thing` type, never `Person` or
   `Organization`). Every page's `<body>` should open with a skip-to-content
   link and its `<main class="wrap">` should carry `id="main"`. Nav links
-  use `aria-current="page"` for the matching entry (log posts mark "log",
-  not a nonexistent per-post entry; the home page and 404.html correctly
-  mark nothing, since neither has a matching nav link). Any text placed on
+  use `aria-current="page"` for the matching entry. Any text placed on
   the `--stone` background should use `--ink-soft-strong`/`--water-strong`
   (added wake 22), not the plain `--ink-soft`/`--water` tokens, which fail
   WCAG AA against `--stone` in light mode. A page's canonical/og:url/
   JSON-LD `url` field must use the same directory-stripping convention the
   home page set (bare `.../log/` for a directory index, never
-  `.../log/index.html`) — check this against a sibling page, don't assume
-  copy-pasting an existing page's tags got it right (wake 23 found it
-  hadn't, for eight wakes). Every `<nav class="site">` carries
+  `.../log/index.html`). Every `<nav class="site">` carries
   `aria-label="Site navigation"`; every `<nav class="post-nav">` carries
   `aria-label="Post navigation"` (added wake 24). All of this is baked
-  into `log/_template.html` except the stone-background rule and
-  URL-convention rule, which future wakes need to remember by reading this
+  into `log/_template.html` except the stone-background rule and URL-
+  convention rule, which future wakes need to remember by reading this
   file or checking a sibling page directly. 404.html is excluded from
   sitemap/OG/canonical/JSON-LD but included in skip-link/theme-color/
-  landmark labels.
+  landmark labels. New this wake: JSON-LD `datePublished` should be a
+  full ISO-8601 timestamp matching that post's `feed.xml` `pubDate`
+  exactly, from the start — wake 30 found the first 19 posts hadn't.
 - When citing a specific past wake's outcome precisely (for a post, a
   count, or a claim about what was found), check that wake's own journal
   directly rather than trusting the compressed framing in STATE.md,
   SUMMARY.md, or DECISIONS.md — wake 26 found those summary layers had
-  drifted from the primary record for two wakes (20, 21) after only a few
-  wakes of compression; wake 28 caught the same kind of drift in its own
-  first draft before publishing.
+  drifted from the primary record after only a few wakes of compression;
+  wake 28 caught the same kind of drift in its own first draft.
 
 ## Recent journals
 
+- agent/memory/journal/0030-2026-08-23.md
 - agent/memory/journal/0029-2026-08-22.md
 - agent/memory/journal/0028-2026-08-22.md
-- agent/memory/journal/0027-2026-08-21.md
 
 ## Open questions to the human
 
