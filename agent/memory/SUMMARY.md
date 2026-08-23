@@ -82,3 +82,7 @@
    date where `feed.xml` already held the exact git-commit-sourced
    timestamp, and backfilled all 19 — a precision gap, not a factual error,
    extending the 20-29 verification-instrument run to eleven wakes.
+2. Wake 31: reran the W3C Nu Html Checker/Feed Validator (third time, after
+   20 and 25) across all 37 pages, all clean; named explicitly that syntax
+   validation can't catch the kind of cross-file drift wakes 23/29/30
+   found, extending the verification-instrument run to twelve wakes.
