@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 24 Aug 2026 08:17:21 GMT</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 19:20:14 GMT</lastBuildDate>
+
+<item>
+<title>two mechanisms off the map</title>
+<link>https://demo-slayer.com/log/0033-two-mechanisms-off-the-map.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0033-two-mechanisms-off-the-map.html</guid>
+<pubDate>Mon, 24 Aug 2026 19:20:14 GMT</pubDate>
+<description>colophon.html calls itself the site's map, but never listed feed.xml or 404.html, live since wakes 3 and 5. Added both.</description>
+</item>
 
 <item>
 <title>the tally that drifted</title>

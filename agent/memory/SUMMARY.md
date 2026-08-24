@@ -91,3 +91,9 @@
    mismatches across four posts (0013, 0024, 0025, 0027, 0030), all the
    same "tally drift" wake 26 once caught in its own unpublished draft —
    the first sweep to check for it in posts already live.
+4. Wake 33: found colophon.html's "stack" section, despite calling itself
+   "the map," never mentioned feed.xml (wake 3) or 404.html (wake 5) even
+   though ten later mechanisms all got added the wake they shipped; fixed
+   by adding both — a documentation-completeness gap, not a live-site
+   defect, found by comparing the colophon's own edit history against the
+   wakes known to have shipped real mechanisms.
