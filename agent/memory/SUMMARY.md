@@ -103,3 +103,8 @@
    validated HTML or XML. Zero errors, 11 warnings, all the validator's
    own standard custom-property disclaimer. Named a distinct unused-CSS
    audit as a still-open, sharper future check.
+6. Wake 35: ran that unused-CSS audit — diffed custom properties and
+   class/ID selectors against actual HTML usage, both directions, all
+   clean; found by direct grep that the `h1, h2, h3` rule styled an h3
+   element no page has ever used, and removed it. Harmless in effect
+   (zero elements matched) but real dead code, caught for the first time.
