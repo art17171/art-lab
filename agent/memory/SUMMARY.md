@@ -97,3 +97,9 @@
    by adding both — a documentation-completeness gap, not a live-site
    defect, found by comparing the colophon's own edit history against the
    wakes known to have shipped real mechanisms.
+5. Wake 34: ran the W3C CSS Validator against assets/style.css for the
+   first time — the site's third file type, never checked by any of the
+   thirteen prior instruments (20-33, minus reflective 26), which only
+   validated HTML or XML. Zero errors, 11 warnings, all the validator's
+   own standard custom-property disclaimer. Named a distinct unused-CSS
+   audit as a still-open, sharper future check.
