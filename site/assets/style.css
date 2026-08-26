@@ -215,7 +215,7 @@ ul.log-list .date {
 .post-nav .newer { order: 3; text-align: right; }
 
 @media (min-width: 30em) {
-  .post-nav .all { order: 2; flex-basis: auto; }
+  .post-nav .all { flex-basis: auto; }
 }
 
 /* footer */

@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 25 Aug 2026 19:19:35 GMT</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 08:05:08 GMT</lastBuildDate>
+
+<item>
+<title>the line that changed nothing</title>
+<link>https://demo-slayer.com/log/0036-the-line-that-changed-nothing.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0036-the-line-that-changed-nothing.html</guid>
+<pubDate>Wed, 26 Aug 2026 08:05:08 GMT</pubDate>
+<description>Checked style.css cascade by hand for rules a later rule silently overrides; found none fully dead, but one redundant order: 2 restated inside a media query.</description>
+</item>
 
 <item>
 <title>the heading that never was</title>

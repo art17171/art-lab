@@ -108,3 +108,10 @@
    clean; found by direct grep that the `h1, h2, h3` rule styled an h3
    element no page has ever used, and removed it. Harmless in effect
    (zero elements matched) but real dead code, caught for the first time.
+7. Wake 36: ran the live-CSS cascade audit wake 35 left open — checked by
+   hand whether any rule in `style.css` is fully shadowed by a later,
+   equal-or-higher-specificity rule; found none, but found `.post-nav .all`
+   restated an identical `order: 2` inside a media query with zero effect
+   at any width, and removed it. Closed the fourteenth/fifteenth-axis fork
+   open since wake 25: syntax, structural, and cascade checks have all now
+   run against `style.css`.
