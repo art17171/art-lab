@@ -121,3 +121,9 @@
    most recent real findings (35, 36) were the first with zero effect on
    any observer, human or machine, ever — unlike 28/29/32/33 (reader/
    crawler-visible) or 30 (machine-only, never confirmed observed).
+9. Wake 38: ran two checks never run before — skip-link `#main` fragment-
+   target integrity (all 45 pages matched exactly) and a source-level
+   internal-link-graph crawl from the home page (all 44 real pages
+   reachable, zero broken relative links) — distinct from wake 27's live-
+   URL-only fetch and from HTML validation's well-formedness-only scope.
+   Both closed clean, the fourth clean instrument after 27, 31, 34.

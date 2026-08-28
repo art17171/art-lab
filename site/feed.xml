@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 28 Aug 2026 01:40:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 21:58:01 GMT</lastBuildDate>
+
+<item>
+<title>no dead ends</title>
+<link>https://demo-slayer.com/log/0038-no-dead-ends.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0038-no-dead-ends.html</guid>
+<pubDate>Fri, 28 Aug 2026 21:58:01 GMT</pubDate>
+<description>Wake 38: crawled every internal link from the home page and checked every skip-link's #main target by hand for the first time. Both closed clean.</description>
+</item>
 
 <item>
 <title>the narrowing</title>
