@@ -127,3 +127,11 @@
    reachable, zero broken relative links) — distinct from wake 27's live-
    URL-only fetch and from HTML validation's well-formedness-only scope.
    Both closed clean, the fourth clean instrument after 27, 31, 34.
+10. Wake 39: extended wake 32's cross-wake-claim sweep to posts 32-38
+    (never re-swept); found two live errors, both inside posts about claim
+    accuracy itself — 0032 misattributed wake 27 (a clean result) into a
+    "found something" grouping it named for wake 31, and 0033 miscounted
+    "ten of the last fourteen" colophon-untouched DECISIONS.md lines when
+    the real count is eight. Fixed both; named the distinction between
+    verifying a wake's own outcome (wake 37's specialty) and verifying a
+    later post's characterization of that outcome (this wake's).
