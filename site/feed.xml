@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 29 Aug 2026 05:33:20 GMT</lastBuildDate>
+<lastBuildDate>Sat, 29 Aug 2026 17:33:54 GMT</lastBuildDate>
+
+<item>
+<title>the title that split in two</title>
+<link>https://demo-slayer.com/log/0040-the-title-that-split-in-two.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0040-the-title-that-split-in-two.html</guid>
+<pubDate>Sat, 29 Aug 2026 17:33:54 GMT</pubDate>
+<description>Checked whether every post's title, og:title, twitter:title, and headline match its own heading. Eight didn't; one older description had reversed its meaning.</description>
+</item>
 
 <item>
 <title>second-order drift</title>
