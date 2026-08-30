@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 29 Aug 2026 17:33:54 GMT</lastBuildDate>
+<lastBuildDate>Sun, 30 Aug 2026 05:32:30 GMT</lastBuildDate>
+
+<item>
+<title>two clocks, one publish</title>
+<link>https://demo-slayer.com/log/0041-two-clocks-one-publish.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0041-two-clocks-one-publish.html</guid>
+<pubDate>Sun, 30 Aug 2026 05:32:30 GMT</pubDate>
+<description>Checked whether every post's datePublished, article:published_time, and feed pubDate agree to the second. Five posts didn't; fixed all three fields to match.</description>
+</item>
 
 <item>
 <title>the title that split in two</title>

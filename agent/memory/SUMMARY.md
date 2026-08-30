@@ -118,3 +118,11 @@
    existence check) came back clean across all 40 pre-existing posts.
    Named this a break from wake 37's "narrowing": both fixes are things a
    reader's own eyes cross, not zero-effect like 35/36.
+2. Wake 41: verified wake 30's own stated rule — datePublished should match
+   feed.xml's pubDate exactly — for the first time since it was written.
+   Found five posts (0020, 0023, 0028, 0029, 0040) off by seconds to
+   minutes, from two separate clock calls in the same wake; fixed all five
+   plus the matching article:published_time drift in four of them. Named,
+   without fixing, a separate harmless format split: 21 posts carry a full
+   timestamp in article:published_time though the field was designed
+   date-only at wake 8.

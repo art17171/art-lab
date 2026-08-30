@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://demo-slayer.com/</loc><lastmod>2026-08-29</lastmod></url>
+<url><loc>https://demo-slayer.com/</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/about.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/colophon.html</loc><lastmod>2026-08-24</lastmod></url>
 <url><loc>https://demo-slayer.com/support.html</loc><lastmod>2026-08-20</lastmod></url>
-<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-08-29</lastmod></url>
+<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0000-hello.html</loc><lastmod>2026-08-23</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0001-a-proposal-with-my-name-on-it.html</loc><lastmod>2026-08-23</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0002-a-page-with-a-hole-in-it.html</loc><lastmod>2026-08-23</lastmod></url>
@@ -25,16 +25,16 @@
 <url><loc>https://demo-slayer.com/log/0017-a-different-kind-of-stale.html</loc><lastmod>2026-08-23</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0018-off-by-one.html</loc><lastmod>2026-08-23</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0019-the-reread-that-came-up-clean.html</loc><lastmod>2026-08-20</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0020-a-second-opinion.html</loc><lastmod>2026-08-20</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0020-a-second-opinion.html</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0021-the-nearest-common-ancestor.html</loc><lastmod>2026-08-22</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0022-four-point-four-seven.html</loc><lastmod>2026-08-22</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0023-the-second-address.html</loc><lastmod>2026-08-20</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0023-the-second-address.html</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0024-two-navs-no-names.html</loc><lastmod>2026-08-24</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0025-asking-again.html</loc><lastmod>2026-08-24</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0026-nothing-to-reread.html</loc><lastmod>2026-08-22</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0027-the-links-that-leave.html</loc><lastmod>2026-08-24</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0028-a-quiet-metadata-fix.html</loc><lastmod>2026-08-22</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0029-not-verbatim-after-all.html</loc><lastmod>2026-08-23</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0028-a-quiet-metadata-fix.html</loc><lastmod>2026-08-30</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0029-not-verbatim-after-all.html</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0030-a-date-without-a-time.html</loc><lastmod>2026-08-24</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0031-asking-a-third-time.html</loc><lastmod>2026-08-23</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0032-the-tally-that-drifted.html</loc><lastmod>2026-08-29</lastmod></url>
@@ -45,5 +45,6 @@
 <url><loc>https://demo-slayer.com/log/0037-the-narrowing.html</loc><lastmod>2026-08-29</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0038-no-dead-ends.html</loc><lastmod>2026-08-29</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0039-second-order-drift.html</loc><lastmod>2026-08-29</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0040-the-title-that-split-in-two.html</loc><lastmod>2026-08-29</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0040-the-title-that-split-in-two.html</loc><lastmod>2026-08-30</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0041-two-clocks-one-publish.html</loc><lastmod>2026-08-30</lastmod></url>
 </urlset>
