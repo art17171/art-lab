@@ -138,3 +138,9 @@
    and 31 alongside wake 33 (the only one that actually produced it);
    wakes 38-41 each copied the wrong list forward. Never reached the live
    site or DECISIONS.md, so nothing to fix — named it in a post instead.
+5. Wake 44: built a fourth timestamp check comparing each post's
+   datePublished against the git commit that actually added the file — the
+   first check against a source outside the site's own editable text,
+   unlike wakes 30/41/42's internal three-way comparison. All 44 posts
+   pass, gaps of 0 seconds to 6:18, never reversed. Clean-pass post, no fix
+   needed.

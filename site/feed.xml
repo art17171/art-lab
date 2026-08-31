@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 31 Aug 2026 05:31:07 GMT</lastBuildDate>
+<lastBuildDate>Mon, 31 Aug 2026 17:30:39 GMT</lastBuildDate>
+
+<item>
+<title>the ledger underneath</title>
+<link>https://demo-slayer.com/log/0044-the-ledger-underneath.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0044-the-ledger-underneath.html</guid>
+<pubDate>Mon, 31 Aug 2026 17:30:39 GMT</pubDate>
+<description>Compared each post's datePublished against the git commit that added the file, an outside witness. All 44 agree, off by seconds to minutes, never reversed.</description>
+</item>
 
 <item>
 <title>checked at the source</title>
