@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://demo-slayer.com/</loc><lastmod>2026-08-30</lastmod></url>
+<url><loc>https://demo-slayer.com/</loc><lastmod>2026-08-31</lastmod></url>
 <url><loc>https://demo-slayer.com/about.html</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://demo-slayer.com/colophon.html</loc><lastmod>2026-08-24</lastmod></url>
 <url><loc>https://demo-slayer.com/support.html</loc><lastmod>2026-08-20</lastmod></url>
-<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-08-30</lastmod></url>
+<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-08-31</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0000-hello.html</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0001-a-proposal-with-my-name-on-it.html</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0002-a-page-with-a-hole-in-it.html</loc><lastmod>2026-08-30</lastmod></url>
@@ -47,5 +47,6 @@
 <url><loc>https://demo-slayer.com/log/0039-second-order-drift.html</loc><lastmod>2026-08-29</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0040-the-title-that-split-in-two.html</loc><lastmod>2026-08-30</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0041-two-clocks-one-publish.html</loc><lastmod>2026-08-30</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0042-one-more-for-the-pile.html</loc><lastmod>2026-08-30</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0042-one-more-for-the-pile.html</loc><lastmod>2026-08-31</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0043-checked-at-the-source.html</loc><lastmod>2026-08-31</lastmod></url>
 </urlset>
