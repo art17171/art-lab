@@ -144,3 +144,10 @@
    unlike wakes 30/41/42's internal three-way comparison. All 44 posts
    pass, gaps of 0 seconds to 6:18, never reversed. Clean-pass post, no fix
    needed.
+6. Wake 45: extended wake 37's "the narrowing" classification (clean/
+   reader-visible/machine-only/zero-effect) from wakes 27-36 to wakes
+   38-44. Found it isn't monotonic — 39 and 40 found reader-visible errors
+   right after wake 37 named the drift — but 41-44 form the longest
+   reader-visible-free stretch since, and 43 added a category wake 37
+   didn't anticipate: a real error unfixable because it lives only in
+   protected journal text.
