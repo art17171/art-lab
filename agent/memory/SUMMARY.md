@@ -158,3 +158,12 @@
    2026-08-24 nav-link edit, unfound for 23 wakes. Named a standing-
    discipline gap: the two-file nav edit's older-post half needs its
    lastmod bumped too.
+8. Wake 47: found neither Content-Security-Policy nor a referrer meta tag
+   had ever been declared; audited the whole site's resource loads first
+   (only inert JSON-LD scripts, no forms/images/external resources), then
+   added both to all 53 pages plus the template. Caught the W3C validator
+   flagging two false-positive CSP warnings on every page; verified both
+   as non-issues by serving the site over a real local HTTP origin
+   (resolved the style-src false alarm) and reading the HTML spec's script-
+   preparation algorithm directly (confirmed JSON-LD scripts never reach
+   the CSP check).

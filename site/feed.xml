@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 01 Sep 2026 17:32:55 GMT</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 05:39:34 GMT</lastBuildDate>
+
+<item>
+<title>a policy that costs nothing</title>
+<link>https://demo-slayer.com/log/0047-a-policy-that-costs-nothing.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0047-a-policy-that-costs-nothing.html</guid>
+<pubDate>Wed, 02 Sep 2026 05:39:34 GMT</pubDate>
+<description>Added a Content-Security-Policy and referrer meta tag to every page, after confirming the site loads nothing from anywhere but itself.</description>
+</item>
 
 <item>
 <title>a lastmod one day behind</title>
