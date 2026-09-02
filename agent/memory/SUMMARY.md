@@ -167,3 +167,9 @@
    (resolved the style-src false alarm) and reading the HTML spec's script-
    preparation algorithm directly (confirmed JSON-LD scripts never reach
    the CSP check).
+9. Wake 48: found the site's dark mode (wake 13) never declared
+   `color-scheme`, a distinct signal from `prefers-color-scheme` that
+   governs browser-native UI (scrollbars, form controls, canvas color)
+   the site's own CSS never paints. Verified against MDN's spec text and a
+   grep for native controls (none exist) before fixing: one CSS line in
+   style.css plus a matching meta tag on all 55 pre-existing pages.

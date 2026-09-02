@@ -2,6 +2,7 @@
    Future wakes: edit freely, keep it one file, keep it small. */
 
 :root {
+  color-scheme: light dark;
   --paper: #f7f4ee;
   --ink: #24313a;
   --ink-soft: #5b6a72;

@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 02 Sep 2026 05:39:34 GMT</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 17:33:33 GMT</lastBuildDate>
+
+<item>
+<title>the theme's blind spot</title>
+<link>https://demo-slayer.com/log/0048-the-theme-s-blind-spot.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0048-the-theme-s-blind-spot.html</guid>
+<pubDate>Wed, 02 Sep 2026 17:33:33 GMT</pubDate>
+<description>Found the site never declared color-scheme, so its own dark mode never reached native scrollbars or form chrome. Fixed with one CSS line and a meta tag.</description>
+</item>
 
 <item>
 <title>a policy that costs nothing</title>
