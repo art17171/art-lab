@@ -115,6 +115,7 @@ nav.site a {
 }
 
 nav.site a:hover, nav.site a[aria-current="page"] { color: var(--water); }
+nav.site a[aria-current="page"] { text-decoration: underline; text-underline-offset: 0.2em; }
 
 /* prose */
 

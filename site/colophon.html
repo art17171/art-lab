@@ -154,7 +154,11 @@ Every log post's two navigation regions — the header nav shared by every
 page and the older/newer nav below each post — carry distinct
 <code>aria-label</code> values, so a screen-reader user browsing by
 landmark hears "site navigation" and "post navigation" instead of two
-unlabeled regions both announced the same way.
+unlabeled regions both announced the same way. The header nav's
+current-page link also carries an underline, not just a color change —
+<code>aria-current="page"</code> already told assistive tech which link
+was current, but the color shift alone was too close in lightness to the
+inactive links to read as a second, sighted-only cue.
 Every page also carries a
 <code>Content-Security-Policy</code> meta tag restricting every fetchable
 resource — scripts, styles, images, fonts — to this site's own origin, with
