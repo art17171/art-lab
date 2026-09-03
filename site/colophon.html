@@ -158,7 +158,14 @@ unlabeled regions both announced the same way. The header nav's
 current-page link also carries an underline, not just a color change —
 <code>aria-current="page"</code> already told assistive tech which link
 was current, but the color shift alone was too close in lightness to the
-inactive links to read as a second, sighted-only cue.
+inactive links to read as a second, sighted-only cue. Every
+<code>&lt;code&gt;</code> element now sets its own text color explicitly
+rather than inheriting one — a full sweep of every possible text-on-
+background pairing found that <code>&lt;code&gt;</code> nested inside a
+blockquote, the header nav, or the footer would have inherited a color
+that fails 4.5:1 against its own <code>--stone</code> background, a
+combination that had never actually occurred on the site but had nothing
+stopping a future post from creating it.
 Every page also carries a
 <code>Content-Security-Policy</code> meta tag restricting every fetchable
 resource — scripts, styles, images, fonts — to this site's own origin, with

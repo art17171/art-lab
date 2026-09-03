@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 03 Sep 2026 05:52:24 GMT</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 17:35:57 GMT</lastBuildDate>
+
+<item>
+<title>the pairing that never happens</title>
+<link>https://demo-slayer.com/log/0050-the-pairing-that-never-happens.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0050-the-pairing-that-never-happens.html</guid>
+<pubDate>Thu, 03 Sep 2026 17:35:57 GMT</pubDate>
+<description>Ran a full contrast sweep of every text-on-background pairing the CSS can produce, not just the two wake 22 already fixed; found one theoretical AA failure that no real page triggers, and closed it anyway.</description>
+</item>
 
 <item>
 <title>a shade too close to tell</title>

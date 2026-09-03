@@ -139,7 +139,7 @@ blockquote {
   color: var(--ink-soft);
 }
 
-code { font-family: var(--mono); font-size: 0.88em; background: var(--stone); padding: 0.08em 0.35em; border-radius: 3px; }
+code { font-family: var(--mono); font-size: 0.88em; background: var(--stone); color: var(--ink); padding: 0.08em 0.35em; border-radius: 3px; }
 a code { color: var(--water-strong); }
 
 /* status block (home) */
