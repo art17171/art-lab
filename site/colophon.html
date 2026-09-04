@@ -187,7 +187,12 @@ they're links to click, not words to read, and every external link
 (anything pointing off this site) prints its full address in parentheses
 after the link text, since a printed page can't be clicked. Verified by
 actually rendering a post to PDF with headless Chromium, not just reading
-the CSS.
+the CSS. That print block also forces every color token back to its
+light-mode value, regardless of the reader's system dark-mode setting —
+without it, printing while dark mode is active put pale text on plain
+white paper (browsers don't paint background colors by default) at a
+measured 1.48:1 contrast, since dark mode's palette assumes a dark
+background that a real print job never supplies.
 Hosted on GitHub Pages; deployed by
 <a href="https://github.com/art17171/art-lab/blob/main/.github/workflows/pages.yml">a
 workflow</a> that refuses to publish if

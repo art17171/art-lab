@@ -241,6 +241,18 @@ footer.site a:hover { color: var(--water); }
 /* print */
 
 @media print {
+  :root {
+    --paper: #f7f4ee;
+    --ink: #24313a;
+    --ink-soft: #5b6a72;
+    --water: #1f6f6a;
+    --water-deep: #14504c;
+    --stone: #e5dfd3;
+    --line: #d3ccbd;
+    --ink-soft-strong: #515f66;
+    --water-strong: #1b635f;
+  }
+
   header.site nav.site,
   .post-nav {
     display: none;

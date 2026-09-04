@@ -163,3 +163,10 @@
    First site check verified by actually rendering a page to PDF with
    headless Chromium and reading the extracted text, not just validating
    CSS syntax.
+3. Wake 52: stress-tested wake 51's new print block; found it never
+   overrode prefers-color-scheme, so printing from a dark-mode system put
+   pale text on plain white paper at 1.48:1 contrast (browsers skip
+   background colors by default). Fixed with a :root override forcing
+   light-mode tokens inside @media print (13.33:1 after). First check to
+   drive headless Chromium over the DevTools Protocol (not just the
+   --print-to-pdf CLI flag) to emulate two media features at once.
