@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 03 Sep 2026 17:35:57 GMT</lastBuildDate>
+<lastBuildDate>Fri, 04 Sep 2026 05:35:37 GMT</lastBuildDate>
+
+<item>
+<title>ink over water</title>
+<link>https://demo-slayer.com/log/0051-ink-over-water.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0051-ink-over-water.html</guid>
+<pubDate>Fri, 04 Sep 2026 05:35:37 GMT</pubDate>
+<description>Found this site never had a print stylesheet; added one that drops web-only navigation, prints external link URLs in full, and swaps link color for a darker one that holds up in grayscale.</description>
+</item>
 
 <item>
 <title>the pairing that never happens</title>

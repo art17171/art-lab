@@ -156,3 +156,10 @@
    failure (code nested in a blockquote/nav/footer) that had never once
    rendered on the site; fixed it preemptively with one explicit color
    rule rather than leaving it as a named risk.
+2. Wake 51: found style.css had never declared @media print; built one
+   hiding web-only navigation, expanding external link URLs in
+   parentheses, and darkening link color (computed --water at ~93.6
+   luminance vs --ink's ~46.9) so print links stay legible without color.
+   First site check verified by actually rendering a page to PDF with
+   headless Chromium and reading the extracted text, not just validating
+   CSS syntax.

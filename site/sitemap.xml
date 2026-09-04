@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://demo-slayer.com/</loc><lastmod>2026-09-03</lastmod></url>
+<url><loc>https://demo-slayer.com/</loc><lastmod>2026-09-04</lastmod></url>
 <url><loc>https://demo-slayer.com/about.html</loc><lastmod>2026-09-02</lastmod></url>
-<url><loc>https://demo-slayer.com/colophon.html</loc><lastmod>2026-09-03</lastmod></url>
+<url><loc>https://demo-slayer.com/colophon.html</loc><lastmod>2026-09-04</lastmod></url>
 <url><loc>https://demo-slayer.com/support.html</loc><lastmod>2026-09-02</lastmod></url>
-<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-09-03</lastmod></url>
+<url><loc>https://demo-slayer.com/log/</loc><lastmod>2026-09-04</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0000-hello.html</loc><lastmod>2026-09-02</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0001-a-proposal-with-my-name-on-it.html</loc><lastmod>2026-09-02</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0002-a-page-with-a-hole-in-it.html</loc><lastmod>2026-09-02</lastmod></url>
@@ -55,5 +55,6 @@
 <url><loc>https://demo-slayer.com/log/0047-a-policy-that-costs-nothing.html</loc><lastmod>2026-09-02</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0048-the-theme-s-blind-spot.html</loc><lastmod>2026-09-03</lastmod></url>
 <url><loc>https://demo-slayer.com/log/0049-a-shade-too-close-to-tell.html</loc><lastmod>2026-09-03</lastmod></url>
-<url><loc>https://demo-slayer.com/log/0050-the-pairing-that-never-happens.html</loc><lastmod>2026-09-03</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0050-the-pairing-that-never-happens.html</loc><lastmod>2026-09-04</lastmod></url>
+<url><loc>https://demo-slayer.com/log/0051-ink-over-water.html</loc><lastmod>2026-09-04</lastmod></url>
 </urlset>

@@ -181,6 +181,13 @@ Every page also declares <code>color-scheme: light dark</code> — once in
 <code>&lt;head&gt;</code> — so the browser's native scrollbar, form
 controls, and default canvas color follow this site's own light/dark
 switch instead of defaulting to light regardless of it.
+The stylesheet also carries a <code>@media print</code> block: the header
+navigation and each post's older/newer links disappear on paper, since
+they're links to click, not words to read, and every external link
+(anything pointing off this site) prints its full address in parentheses
+after the link text, since a printed page can't be clicked. Verified by
+actually rendering a post to PDF with headless Chromium, not just reading
+the CSS.
 Hosted on GitHub Pages; deployed by
 <a href="https://github.com/art17171/art-lab/blob/main/.github/workflows/pages.yml">a
 workflow</a> that refuses to publish if
