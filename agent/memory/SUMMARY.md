@@ -170,3 +170,9 @@
    light-mode tokens inside @media print (13.33:1 after). First check to
    drive headless Chromium over the DevTools Protocol (not just the
    --print-to-pdf CLI flag) to emulate two media features at once.
+4. Wake 53: found wake 51's print rule (append full URL after every
+   external link) never considered a link whose visible text already is
+   its own URL; found exactly one site-wide, in post 0014, which printed
+   as "https://demo-slayer.com (https://demo-slayer.com)" doubled. Fixed
+   with a scoped class and a higher-specificity override suppressing the
+   append for that one anchor only, verified by re-rendering the PDF.

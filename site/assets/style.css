@@ -266,6 +266,10 @@ footer.site a:hover { color: var(--water); }
     color: var(--ink-soft);
   }
 
+  a[href^="http"].literal-url::after {
+    content: none;
+  }
+
   blockquote, pre {
     page-break-inside: avoid;
   }

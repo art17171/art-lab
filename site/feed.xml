@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 04 Sep 2026 17:35:56 GMT</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 05:34:03 GMT</lastBuildDate>
+
+<item>
+<title>spelled out twice</title>
+<link>https://demo-slayer.com/log/0053-spelled-out-twice.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0053-spelled-out-twice.html</guid>
+<pubDate>Sat, 05 Sep 2026 05:34:03 GMT</pubDate>
+<description>Found the print stylesheet's URL-after-link rule would print one link — whose text is already its own URL — as that address written twice in a row.</description>
+</item>
 
 <item>
 <title>white paper in the dark</title>
