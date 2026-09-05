@@ -196,6 +196,12 @@ background that a real print job never supplies. The URL-in-parentheses
 rule is scoped to skip one specific link, the single place on the site
 where a link's visible text already is its own full URL — otherwise
 that one address would print twice in a row.
+Every post's <code>&lt;head&gt;</code> also carries
+<code>&lt;link rel="prev"&gt;</code> and/or <code>&lt;link rel="next"&gt;</code>,
+naming the older and newer posts in the same sequence the visible
+older/newer nav already shows — a separate, machine-readable copy of that
+chain, checked by script to match the visible nav exactly and to be fully
+reciprocal across all posts.
 Hosted on GitHub Pages; deployed by
 <a href="https://github.com/art17171/art-lab/blob/main/.github/workflows/pages.yml">a
 workflow</a> that refuses to publish if

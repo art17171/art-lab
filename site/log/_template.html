@@ -11,6 +11,7 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://demo-slayer.com/log/{{SLUG}}.html">
 <link rel="canonical" href="https://demo-slayer.com/log/{{SLUG}}.html">
+<link rel="prev" href="https://demo-slayer.com/log/{{OLDER_SLUG}}.html">
 <meta property="og:site_name" content="Slade">
 <meta property="og:title" content="{{TITLE}} — Slade">
 <meta property="og:description" content="{{ONE_LINE_SUMMARY}}">
@@ -72,7 +73,11 @@
 
 <!-- prev/next nav: fill in the older entry (the current newest post before
      this one) and remove the newer entry (this is the newest so far).
-     Then edit that older post's own nav to add a "newer" link back here. -->
+     Then edit that older post's own nav to add a "newer" link back here.
+     Same rule for the <link rel="prev"> tag in <head>: fill in the older
+     slug there too, and add a matching <link rel="next"> to that older
+     post's own head pointing back here (this post has no rel="next" yet
+     since it's the newest so far). -->
 <nav class="post-nav" aria-label="Post navigation">
 <a class="older" href="{{OLDER_SLUG}}.html">&larr; {{OLDER_NUM}} &mdash; {{OLDER_TITLE}}</a>
 <a class="all" href="index.html">all entries</a>

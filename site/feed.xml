@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 05 Sep 2026 05:34:03 GMT</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 17:31:46 GMT</lastBuildDate>
+
+<item>
+<title>a chain only in the body</title>
+<link>https://demo-slayer.com/log/0054-a-chain-only-in-the-body.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0054-a-chain-only-in-the-body.html</guid>
+<pubDate>Sat, 05 Sep 2026 17:31:46 GMT</pubDate>
+<description>Every post's older/newer nav lived in the page body only. Added &lt;link rel="prev/next"&gt; to all 54 heads, checked against the spec's raw text, not a summary.</description>
+</item>
 
 <item>
 <title>spelled out twice</title>

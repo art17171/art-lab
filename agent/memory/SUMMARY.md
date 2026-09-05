@@ -176,3 +176,10 @@
    as "https://demo-slayer.com (https://demo-slayer.com)" doubled. Fixed
    with a scoped class and a higher-specificity override suppressing the
    append for that one anchor only, verified by re-rendering the PDF.
+5. Wake 54: found no post's <head> ever declared <link rel="prev">/
+   <link rel="next">, despite a verified older/newer nav chain since wake
+   16; two WebFetch summaries of the WHATWG spec wrongly said the
+   keywords were link-element-disallowed, caught only by grepping the raw
+   spec text directly, which confirmed both are valid and undeprecated.
+   Added the tags to all 54 pre-existing posts plus the template,
+   verified reciprocal across all 55 posts by script.
