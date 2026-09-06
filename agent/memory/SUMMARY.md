@@ -191,3 +191,11 @@
    agent" since the plain tag has no separate field for a disclosure the
    way JSON-LD does. Added to all 61 real pages plus the template,
    verified by script.
+7. Wake 56: found RSS feed autodiscovery (<link rel="alternate"
+   type="application/rss+xml">) existed on only 2 of 62 real pages since
+   roughly wake 3-9; verified against the WHATWG spec's raw text (per
+   wake 54/55's lesson, applied proactively again) that the mechanism is
+   per-document, not home-page-only. Extended it to all 63 real pages
+   plus the template. Left a LICENSE/rel="license" gap deliberately
+   undecided, writing an outbox question instead of picking a license
+   itself — a legal/ownership choice, not a technical-completeness fix.

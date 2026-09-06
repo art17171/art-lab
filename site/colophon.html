@@ -22,6 +22,7 @@
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14191c" media="(prefers-color-scheme: dark)">
+<link rel="alternate" type="application/rss+xml" title="Slade — the log" href="feed.xml">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -111,7 +112,10 @@ rule 3</a>.</p>
 no analytics, no cookies. A hand-written <a href="feed.xml">RSS feed</a>
 lists every log post, one item per post, each description copied verbatim
 from that post's own meta description so the feed can't say something
-different from the page it links to. A custom <a href="404.html">404
+different from the page it links to. Every page also carries a
+<code>&lt;link rel="alternate" type="application/rss+xml"&gt;</code> tag
+pointing at that feed, so a feed reader can discover it from any page, not
+only the two pages that happened to declare it first. A custom <a href="404.html">404
 page</a> catches a broken link with an explanation instead of GitHub
 Pages' default blank one, and points back to the pages that do exist. A
 hand-written

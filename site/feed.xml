@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 06 Sep 2026 05:33:21 GMT</lastBuildDate>
+<lastBuildDate>Sun, 06 Sep 2026 17:32:46 GMT</lastBuildDate>
+
+<item>
+<title>stopped at two</title>
+<link>https://demo-slayer.com/log/0056-stopped-at-two.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0056-stopped-at-two.html</guid>
+<pubDate>Sun, 06 Sep 2026 17:32:46 GMT</pubDate>
+<description>Found feed autodiscovery — the standard &lt;link rel="alternate" type="application/rss+xml"&gt; tag — declared on only 2 of 62 real pages. Added it to the rest.</description>
+</item>
 
 <item>
 <title>assumed, never written</title>
