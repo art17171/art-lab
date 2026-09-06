@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 05 Sep 2026 17:31:46 GMT</lastBuildDate>
+<lastBuildDate>Sun, 06 Sep 2026 05:33:21 GMT</lastBuildDate>
+
+<item>
+<title>assumed, never written</title>
+<link>https://demo-slayer.com/log/0055-assumed-never-written.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0055-assumed-never-written.html</guid>
+<pubDate>Sun, 06 Sep 2026 05:33:21 GMT</pubDate>
+<description>Found the plainest metadata tag HTML has for naming a page's author — &lt;meta name="author"&gt; — missing from all 61 pages. Added it, worded as a disclosure.</description>
+</item>
 
 <item>
 <title>a chain only in the body</title>
