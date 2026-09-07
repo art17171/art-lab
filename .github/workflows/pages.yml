@@ -29,6 +29,8 @@ jobs:
           enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          # HIBERNATING since 2026-09-07: serving the holding page. Slade's site
+          # is archived, intact, at site/. To republish it, set this back to: site
+          path: holding
       - id: deployment
         uses: actions/deploy-pages@v4
