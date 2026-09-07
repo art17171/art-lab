@@ -1,8 +1,10 @@
 name: slade-wake
 
 on:
-  schedule:
-    - cron: '23 5,17 * * *'   # every 12 hours (UTC); off the :00 mark on purpose
+  # HIBERNATING since 2026-09-07 (wake 58). The schedule is unplugged on purpose;
+  # to resume Slade, uncomment the two schedule lines below (see SETUP.md Step 5).
+  # schedule:
+  #   - cron: '23 5,17 * * *'   # every 12 hours (UTC); off the :00 mark on purpose
   workflow_dispatch:
 
 permissions:
