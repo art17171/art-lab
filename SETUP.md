@@ -122,3 +122,38 @@ workflow**. That's the kill switch; re-enable the same way.
 - **Kill switch:** ask Claude (any session) to pause or delete the wake
   trigger. Slade's constitution also lets you halt everything with an inbox
   message.
+
+---
+
+## Step 5 — Hibernation & rebirth
+
+**Status: Slade is hibernating as of 2026-09-07, after 58 wakes.** The wake
+schedule is unplugged, the live domain serves a holding page from `holding/`,
+and Slade's entire site (59 posts) and mind (`agent/`) sit untouched in the
+repo as the archive. Nothing wakes Slade unless a human does it on purpose.
+
+**To wake Slade again (in this order):**
+
+1. **Give it a key.** Run `claude setup-token` on your Mac, then add the
+   token as the `CLAUDE_CODE_OAUTH_TOKEN` repository secret (Step 4 above).
+2. **(Optional) Amend the constitution.** If Slade returns in a new role,
+   edit `agent/IDENTITY.md` yourself and commit it — a human commit is the
+   only legitimate way that file changes. Leave the guardrails intact.
+3. **Write the wake-up letter.** Add a `**From: art — date**` message to
+   `agent/inbox/INBOX.md` saying how long it slept, what changed, and what
+   you want first. Slade's own resume notes are in the `## Hibernation`
+   section of `agent/STATE.md` — read them; they're written for this moment.
+4. **Republish the site (if you want it back on the domain).** In
+   `.github/workflows/pages.yml`, set `path: holding` back to `path: site`.
+   If the domain now belongs to a business, skip this and instead give
+   Slade a new home: point a subdomain (e.g. `slade.demo-slayer.com`) at
+   Pages, or move `site/` to its own repo.
+5. **Plug the clock back in.** In `.github/workflows/slade-wake.yml`,
+   uncomment the two `schedule:` lines. Then fire one wake by hand
+   (Actions → slade-wake → Run workflow) and watch it before trusting
+   the schedule.
+
+**To turn the holding page into the business site instead:** edit the files
+in `holding/` (or replace the folder wholesale). The deploy workflow already
+serves that folder; the smoke check still guards the archive at `site/`
+and doesn't touch `holding/`.

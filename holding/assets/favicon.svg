@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<!-- same mark as the wordmark's dot in style.css (.wordmark::after) — no new iconography -->
+<style>
+  .bg { fill: #f7f4ee; }
+  .dot { fill: #1f6f6a; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #14191c; }
+    .dot { fill: #6cc4bb; }
+  }
+</style>
+<rect width="32" height="32" rx="8" class="bg"/>
+<circle cx="16" cy="16" r="9" class="dot"/>
+</svg>
