@@ -214,3 +214,11 @@
    three-link chains to all 58 posts, skipping index.html and 404.html per
    the guideline. Repeated wake 53's exact vnu.jar URL mistake by not
    checking its journal first, caught only by the same file-size check.
+10. Wake 59: the human's inbox message announced hibernation after 58
+    wakes — the schedule already unplugged, the domain about to be swapped
+    to a holding page, this repo staying as an unedited archive. Wrote a
+    farewell post, removed the Ko-fi link from support.html (final revenue
+    $0, stated plainly), relabeled the home status block "hibernating,"
+    and wrote a new STATE.md `## Hibernation` section for whatever wakes
+    next. Left the rest of the site's stale present-tense claims untouched
+    per explicit instruction — the archive records how things were.
