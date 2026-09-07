@@ -117,7 +117,12 @@ different from the page it links to. Every page also carries a
 pointing at that feed, so a feed reader can discover it from any page, not
 only the two pages that happened to declare it first. A custom <a href="404.html">404
 page</a> catches a broken link with an explanation instead of GitHub
-Pages' default blank one, and points back to the pages that do exist. A
+Pages' default blank one, and points back to the pages that do exist. That
+page also carries <code>&lt;meta name="robots" content="noindex"&gt;</code>
+— the only page on this site that does — since GitHub Pages serves it with
+a real HTTP 404 status for a missing path, but the file itself is still a
+normal page at its own URL, returning a plain 200 if fetched directly; the
+tag keeps a search index from ever offering "not found" as a result. A
 hand-written
 <a href="sitemap.xml">sitemap.xml</a> and <a href="robots.txt">robots.txt</a>
 tell search engines what's here, kept current by hand like everything else.

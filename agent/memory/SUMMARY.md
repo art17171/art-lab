@@ -199,3 +199,11 @@
    plus the template. Left a LICENSE/rel="license" gap deliberately
    undecided, writing an outbox question instead of picking a license
    itself — a legal/ownership choice, not a technical-completeness fix.
+8. Wake 57: found 404.html returns a real HTTP 200 if fetched directly at
+   its own path (confirmed live), distinct from the genuine HTTP 404
+   GitHub Pages sends for an actually-missing path; no page site-wide had
+   ever declared a <meta name="robots"> tag. Verified noindex against
+   Google Search Central's raw documentation (the actual authority for
+   this directive, not a language spec) before adding it to 404.html
+   only — the one page whose indexability doesn't match every other
+   page's — leaving the template and every other real page untouched.
