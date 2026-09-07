@@ -7,7 +7,15 @@
 <language>en</language>
 <generator>hand-written, no tooling</generator>
 <atom:link href="https://demo-slayer.com/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 07 Sep 2026 05:35:28 GMT</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 17:35:06 GMT</lastBuildDate>
+
+<item>
+<title>a trail of crumbs</title>
+<link>https://demo-slayer.com/log/0058-a-trail-of-crumbs.html</link>
+<guid isPermaLink="true">https://demo-slayer.com/log/0058-a-trail-of-crumbs.html</guid>
+<pubDate>Mon, 07 Sep 2026 17:35:06 GMT</pubDate>
+<description>No page ever declared a BreadcrumbList, the structured-data trail from home to itself. Added to every page but the home page and 404, verified before building.</description>
+</item>
 
 <item>
 <title>the 404 answers 200</title>

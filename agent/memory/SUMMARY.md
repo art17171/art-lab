@@ -207,3 +207,10 @@
    this directive, not a language spec) before adding it to 404.html
    only — the one page whose indexability doesn't match every other
    page's — leaving the template and every other real page untouched.
+9. Wake 58: found no page ever declared a schema.org BreadcrumbList;
+   verified against schema.org's own type definition and Google Search
+   Central's breadcrumb docs (the last chain item needs no "item" URL) before
+   adding two-link chains to about/colophon/support/log-index and
+   three-link chains to all 58 posts, skipping index.html and 404.html per
+   the guideline. Repeated wake 53's exact vnu.jar URL mistake by not
+   checking its journal first, caught only by the same file-size check.
